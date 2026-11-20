@@ -1,0 +1,1638 @@
+{
+ "jackie_body": {
+  "meshes": {
+   "t0_001_mb_body__jackie_welles.mesh LOD0": [
+    {
+     "JOINTS_0": "bc6c9ebea467a16d",
+     "JOINTS_1": "21d7ca0d8c207951",
+     "NORMAL": "74f67ab39faccaa0",
+     "POSITION": "6e57d3e1862bdf6e",
+     "TANGENT": "868274c82f437384",
+     "TEXCOORD_0": "527ff88360741b06",
+     "TEXCOORD_1": "bae07060894fe1b3",
+     "WEIGHTS_0": "be409a10ca34be42",
+     "WEIGHTS_1": "d90ea71304e560bc",
+     "indices": "a53d966b669c3ff1"
+    },
+    {
+     "JOINTS_0": "86f867321c25996b",
+     "JOINTS_1": "0070908767ee088b",
+     "NORMAL": "96e1fd57d2552b60",
+     "POSITION": "003817f85568a08f",
+     "TANGENT": "a4535dd344c7c6dc",
+     "TEXCOORD_0": "845046a6e5c5ccbf",
+     "TEXCOORD_1": "4e473fe7a57a954e",
+     "WEIGHTS_0": "4ec7db74992ca8b1",
+     "WEIGHTS_1": "72ea917f95f82d7a",
+     "indices": "f9e6aee05905cb89"
+    }
+   ],
+   "t0_001_mb_body__jackie_welles.mesh LOD1": [
+    {
+     "JOINTS_0": "986c7e67c776fac7",
+     "NORMAL": "e73a09093f714b35",
+     "POSITION": "1213157eeecd0566",
+     "TANGENT": "58b9679429aedcd4",
+     "TEXCOORD_0": "03ce774b2ce88d53",
+     "TEXCOORD_1": "910887e5d1530632",
+     "WEIGHTS_0": "93737cd3520d7273",
+     "indices": "1a3f246214040b98"
+    },
+    {
+     "JOINTS_0": "e8490c8a40991e16",
+     "NORMAL": "831c824691d15aaf",
+     "POSITION": "30e8c5a65af0b92c",
+     "TANGENT": "8adaa8d603d9910d",
+     "TEXCOORD_0": "d067a5e648d4a0b5",
+     "TEXCOORD_1": "3261e88d2b999845",
+     "WEIGHTS_0": "991ee40d63a1e6ee",
+     "indices": "1f31ead57fa27576"
+    }
+   ],
+   "t0_001_mb_body__jackie_welles.mesh LOD2": [
+    {
+     "JOINTS_0": "1a87b08cd734a963",
+     "NORMAL": "fe3d6054c1e052bf",
+     "POSITION": "d362be8f965956d1",
+     "TANGENT": "9f10b90c98ed2ea9",
+     "TEXCOORD_0": "e3fa8157ab712c5f",
+     "WEIGHTS_0": "c8f1bcae4ce578a3",
+     "indices": "d597b904e623e731"
+    },
+    {
+     "JOINTS_0": "f262891fbdaf6098",
+     "NORMAL": "654ced037825c6c2",
+     "POSITION": "20b4296456b989b2",
+     "TANGENT": "67a5f1c633666f3d",
+     "TEXCOORD_0": "856950dcdce98d7d",
+     "WEIGHTS_0": "3bbf58194fc581ff",
+     "indices": "1d01321cb059b30e"
+    }
+   ],
+   "t0_001_mb_body__jackie_welles.mesh LOD3": [
+    {
+     "JOINTS_0": "8e7bdd00385dc145",
+     "JOINTS_1": "0a3d32dc757430cf",
+     "NORMAL": "26fe4b15656a4d2c",
+     "POSITION": "ba8943727c99af56",
+     "TANGENT": "4e1755e701ce3b31",
+     "TEXCOORD_0": "eebefef0d1dbda85",
+     "WEIGHTS_0": "94804f22a26b1354",
+     "WEIGHTS_1": "e03fa40f01fa3978",
+     "indices": "bfc870e876f088e7"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "skinWeightSumMaxDeviation": 1e-07,
+   "bindPoseSkinningMaxError_mm": 0.0001,
+   "countsMatchResearchReport": {
+    "LOD0": "match",
+    "LOD1": "match",
+    "LOD2": "match",
+    "LOD3": "match"
+   },
+   "lod0BoundsMaxDiffVsReport_mm": 0.048,
+   "orientation": {
+    "leftSideIsPlusX": true,
+    "upIsPlusY": true,
+    "forwardIsPlusZ": true
+   }
+  },
+  "ibm": "f535d9d041dc9399",
+  "joints": "5e59f83840091f9d"
+ },
+ "jackie_body_materials": {
+  "meshes": {
+   "t0_001_mb_body__jackie_welles.mesh LOD0": [
+    {
+     "JOINTS_0": "bc6c9ebea467a16d",
+     "JOINTS_1": "21d7ca0d8c207951",
+     "NORMAL": "74f67ab39faccaa0",
+     "POSITION": "6e57d3e1862bdf6e",
+     "TANGENT": "868274c82f437384",
+     "TEXCOORD_0": "527ff88360741b06",
+     "TEXCOORD_1": "bae07060894fe1b3",
+     "WEIGHTS_0": "be409a10ca34be42",
+     "WEIGHTS_1": "d90ea71304e560bc",
+     "indices": "a53d966b669c3ff1"
+    },
+    {
+     "JOINTS_0": "86f867321c25996b",
+     "JOINTS_1": "0070908767ee088b",
+     "NORMAL": "96e1fd57d2552b60",
+     "POSITION": "003817f85568a08f",
+     "TANGENT": "a4535dd344c7c6dc",
+     "TEXCOORD_0": "845046a6e5c5ccbf",
+     "TEXCOORD_1": "4e473fe7a57a954e",
+     "WEIGHTS_0": "4ec7db74992ca8b1",
+     "WEIGHTS_1": "72ea917f95f82d7a",
+     "indices": "f9e6aee05905cb89"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "skinWeightSumMaxDeviation": 1e-07,
+   "bindPoseSkinningMaxError_mm": 0.0001,
+   "countsMatchResearchReport": {
+    "LOD0": "match",
+    "LOD1": {
+     "report": {
+      "chunks": 2,
+      "vertices": 3609,
+      "triangles": 6261
+     },
+     "export": null
+    },
+    "LOD2": {
+     "report": {
+      "chunks": 2,
+      "vertices": 1706,
+      "triangles": 2529
+     },
+     "export": null
+    },
+    "LOD3": {
+     "report": {
+      "chunks": 1,
+      "vertices": 470,
+      "triangles": 630
+     },
+     "export": null
+    }
+   },
+   "lod0BoundsMaxDiffVsReport_mm": 0.048,
+   "orientation": {
+    "leftSideIsPlusX": true,
+    "upIsPlusY": true,
+    "forwardIsPlusZ": true
+   }
+  },
+  "ibm": "f535d9d041dc9399",
+  "joints": "5e59f83840091f9d",
+  "materials": {
+   "_body": {
+    "shader": "base\\materials\\skin.mt",
+    "factor": null,
+    "alphaMode": null,
+    "images": {
+     "baseColor": "4f31cb2f2db96e2e",
+     "metallicRoughness": "bbf4be5a90b7b842",
+     "normal": "9c6e28bc2d1b77e8"
+    }
+   },
+   "tattoo": {
+    "shader": "base\\materials\\mesh_decal.mt",
+    "factor": [
+     1.0,
+     1.0,
+     1.0,
+     0.8500000238418579
+    ],
+    "alphaMode": "BLEND",
+    "images": {
+     "baseColor": "1b9f9c05c5e3dbbe"
+    }
+   }
+  }
+ },
+ "mantis_arm": {
+  "meshes": {
+   "a0_003_wa__mantisblade_left_arm.mesh LOD0": [
+    {
+     "JOINTS_0": "be2fbb0913772154",
+     "JOINTS_1": "5509c82ec61a4d8f",
+     "NORMAL": "b39aeffd5e390ad5",
+     "POSITION": "fdb5b61d632e5083",
+     "TANGENT": "fb29da37b294b793",
+     "TEXCOORD_0": "a4801d812f2e0e47",
+     "WEIGHTS_0": "808ab6afd99851b2",
+     "WEIGHTS_1": "9a54d078acd657b8",
+     "indices": "33a7dfb0f6762bcf"
+    },
+    {
+     "JOINTS_0": "5b830a3452d1b00a",
+     "JOINTS_1": "e3781295ce23b257",
+     "NORMAL": "500795c87515b7a0",
+     "POSITION": "21ab163a498aea77",
+     "TANGENT": "cd29f780a9e358ae",
+     "TEXCOORD_0": "e65cf72f3f6d1fba",
+     "WEIGHTS_0": "9aaee4690aa8ebad",
+     "WEIGHTS_1": "fd9ed90e67e1705d",
+     "indices": "2871a36dbf01e90d"
+    },
+    {
+     "JOINTS_0": "4c844275caebcfbb",
+     "JOINTS_1": "52de38ca01d4023d",
+     "NORMAL": "40655364b0deba32",
+     "POSITION": "a83c0eccec43a2f5",
+     "TANGENT": "f3ed3e72cb87e6ed",
+     "TEXCOORD_0": "0e6ecd83b8df5016",
+     "WEIGHTS_0": "d76009e244798939",
+     "WEIGHTS_1": "2db3eca0c5b5d080",
+     "indices": "de3112a5a0188e9f"
+    },
+    {
+     "JOINTS_0": "9a22e1d849cc2072",
+     "JOINTS_1": "e82c0a0bfa24146d",
+     "NORMAL": "fbc1edc6dcc40041",
+     "POSITION": "a5dc2d392e89e482",
+     "TANGENT": "9b13cc2aaf72f4a8",
+     "TEXCOORD_0": "3f03029e012611c2",
+     "WEIGHTS_0": "8f72ba3e69b40b8e",
+     "WEIGHTS_1": "bd5431b7baf610b3",
+     "indices": "bb225639dd278161"
+    },
+    {
+     "JOINTS_0": "6dd6dd71ecd88165",
+     "NORMAL": "d91488b213255af5",
+     "POSITION": "03bfde9773cbb2c4",
+     "TANGENT": "396836bcf46784e0",
+     "TEXCOORD_0": "caa56058d38a94f6",
+     "WEIGHTS_0": "fa928118fbcdc481",
+     "indices": "f6c0a04a8512ffdd"
+    },
+    {
+     "JOINTS_0": "f7441abdc09eab01",
+     "NORMAL": "1480f604d948ab47",
+     "POSITION": "159d284bf25a59b2",
+     "TANGENT": "bd7e026ee5c6ced7",
+     "TEXCOORD_0": "842a20cea0c1bbde",
+     "WEIGHTS_0": "c10c7f8168dfd760",
+     "indices": "85463d36127f62fe"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "skinWeightSumMaxDeviation": 1e-07,
+   "bindPoseSkinningMaxError_mm": 0.0002,
+   "countsMatchResearchReport": {
+    "LOD0": "match"
+   },
+   "lod0BoundsMaxDiffVsReport_mm": 0.041
+  },
+  "ibm": "7500d9fdb2c29324",
+  "joints": "0ff91fcd06af487f"
+ },
+ "vending_machine": {
+  "meshes": {
+   "shop_vending_machine_b_w300_h400_aa.mesh LOD0": [
+    {
+     "NORMAL": "4545ff2fed4f3fc7",
+     "POSITION": "fea00242a69ba0bb",
+     "TANGENT": "01fc3fcc16f5185b",
+     "TEXCOORD_0": "33082709cee38a27",
+     "indices": "aa727dbe5c94667b"
+    },
+    {
+     "NORMAL": "2b3ab07b6e89e4c6",
+     "POSITION": "6df4ce46596e124f",
+     "TANGENT": "cb56ea34a8478ed7",
+     "TEXCOORD_0": "f19935685dbd5cf3",
+     "indices": "89a7d78ef31ad59c"
+    },
+    {
+     "NORMAL": "6bf377b155294fa8",
+     "POSITION": "1305841960bdc916",
+     "TANGENT": "ce9ee446956deceb",
+     "TEXCOORD_0": "c804c8ab66176f24",
+     "indices": "e9a21739f9dbbaf9"
+    }
+   ],
+   "shop_vending_machine_b_w300_h400_aa.mesh LOD1": [
+    {
+     "NORMAL": "1e2a15575d714bbe",
+     "POSITION": "f3275ac488bde8d2",
+     "TANGENT": "212a3337702f1f2f",
+     "TEXCOORD_0": "c91260e51638e24d",
+     "indices": "052e6bef7154a41a"
+    },
+    {
+     "NORMAL": "976d2a530fec2fe6",
+     "POSITION": "e61477683f1ffc7b",
+     "TANGENT": "e9bbfcd9b373e35d",
+     "TEXCOORD_0": "f6c7af5600ab4058",
+     "indices": "d1265bb516736462"
+    },
+    {
+     "NORMAL": "4545ff2fed4f3fc7",
+     "POSITION": "fea00242a69ba0bb",
+     "TANGENT": "01fc3fcc16f5185b",
+     "TEXCOORD_0": "33082709cee38a27",
+     "indices": "aa727dbe5c94667b"
+    }
+   ],
+   "shop_vending_machine_b_w300_h400_aa.mesh LOD2": [
+    {
+     "NORMAL": "4bbd0a4e95bbc12e",
+     "POSITION": "af1dab2836a724fa",
+     "TANGENT": "c1c842ee05e03470",
+     "TEXCOORD_0": "a4402208db3d16ba",
+     "indices": "7ea132b42800bdc1"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "countsMatchResearchReport": {
+    "LOD0": "match",
+    "LOD1": "match",
+    "LOD2": "match"
+   },
+   "lod0BoundsMaxDiffVsReport_mm": 0.041
+  }
+ },
+ "jackie_assembled": {
+  "meshes": {
+   "t0_001_mb_body__jackie_welles4264 LOD0": [
+    {
+     "JOINTS_0": "bc6c9ebea467a16d",
+     "JOINTS_1": "21d7ca0d8c207951",
+     "NORMAL": "74f67ab39faccaa0",
+     "POSITION": "6e57d3e1862bdf6e",
+     "TANGENT": "868274c82f437384",
+     "TEXCOORD_0": "527ff88360741b06",
+     "TEXCOORD_1": "bae07060894fe1b3",
+     "WEIGHTS_0": "be409a10ca34be42",
+     "WEIGHTS_1": "d90ea71304e560bc",
+     "indices": "a53d966b669c3ff1"
+    },
+    {
+     "JOINTS_0": "86f867321c25996b",
+     "JOINTS_1": "0070908767ee088b",
+     "NORMAL": "96e1fd57d2552b60",
+     "POSITION": "003817f85568a08f",
+     "TANGENT": "a4535dd344c7c6dc",
+     "TEXCOORD_0": "845046a6e5c5ccbf",
+     "TEXCOORD_1": "4e473fe7a57a954e",
+     "WEIGHTS_0": "4ec7db74992ca8b1",
+     "WEIGHTS_1": "72ea917f95f82d7a",
+     "indices": "f9e6aee05905cb89"
+    }
+   ],
+   "s1_001_mb__jackie_welles5571 LOD0": [
+    {
+     "JOINTS_0": "ad35a6217e4c8b2d",
+     "NORMAL": "b8d264b8ca75a60f",
+     "POSITION": "523eff14841039b1",
+     "TANGENT": "f239e7d7cea7e09f",
+     "TEXCOORD_0": "d56b29747c39b6f6",
+     "TEXCOORD_1": "f8b59fb008d109a8",
+     "WEIGHTS_0": "5874b80c507bc22e",
+     "indices": "920719f4839190f1"
+    }
+   ],
+   "t1_001_full__jackie_welles1604 LOD0": [
+    {
+     "JOINTS_0": "93013a4ee4e35ff7",
+     "JOINTS_1": "db3a8db7e054b861",
+     "NORMAL": "d97c290e22616381",
+     "POSITION": "21b537d4ebc8a90b",
+     "TANGENT": "0e7472f77372c2eb",
+     "TEXCOORD_0": "ea38f67dabdf172e",
+     "WEIGHTS_0": "80142a714bbe4b13",
+     "WEIGHTS_1": "d5b3c8591daf6c73",
+     "indices": "15a1a68542ce0f2d"
+    },
+    {
+     "JOINTS_0": "12ac8ce23b80c39c",
+     "JOINTS_1": "b5118a7e13633abd",
+     "NORMAL": "12b3578947dcd720",
+     "POSITION": "9cebf5bfcac80546",
+     "TANGENT": "9d4396610d271c0b",
+     "TEXCOORD_0": "9041534da0acaa2c",
+     "TEXCOORD_1": "fd489fcd59be03d3",
+     "WEIGHTS_0": "ad7c0af9361f9fd7",
+     "WEIGHTS_1": "e4cd0139e6b85f86",
+     "indices": "82b0312b3dcada3b"
+    }
+   ],
+   "t1_001_full__jackie_welles_dec_stitches LOD0": [
+    {
+     "JOINTS_0": "d08698466511c91e",
+     "JOINTS_1": "20005a65882ee7c9",
+     "NORMAL": "979e2bb3dc16ce4e",
+     "POSITION": "5ca49e2151918a12",
+     "TANGENT": "e556da5bc8aec035",
+     "TEXCOORD_0": "0bb1e6c4a82a65d0",
+     "WEIGHTS_0": "fc46b708bcea712b",
+     "WEIGHTS_1": "cf191b17e63a8cc4",
+     "indices": "fa362f981cb66a7a"
+    },
+    {
+     "JOINTS_0": "5571116be428fc5a",
+     "JOINTS_1": "ffb12a870ce848b8",
+     "NORMAL": "f9c3a2dbb9e0fd82",
+     "POSITION": "c2556e86c7ee2c2b",
+     "TANGENT": "dfa9e196b2b7e4ff",
+     "TEXCOORD_0": "3ba5a794be61468c",
+     "WEIGHTS_0": "415d8a85b3ffb595",
+     "WEIGHTS_1": "eb15d26a2411b8ef",
+     "indices": "ffd4a664ce73e62b"
+    },
+    {
+     "JOINTS_0": "4fd48834d3cef82e",
+     "JOINTS_1": "ee0b8d3da23cb93a",
+     "NORMAL": "92146ec9f8cc77d8",
+     "POSITION": "c06190cafdcaf168",
+     "TANGENT": "c9edd4493e896809",
+     "TEXCOORD_0": "1aa4617dbdc4ffd3",
+     "WEIGHTS_0": "6b7e0c2b105949e4",
+     "WEIGHTS_1": "114d753a2994563b",
+     "indices": "ef44a83fa93f8460"
+    },
+    {
+     "JOINTS_0": "fb09f62fbea9aea6",
+     "NORMAL": "7325c2f4f3c063e0",
+     "POSITION": "acdd35490e60b68b",
+     "TANGENT": "4e94857d72b812cd",
+     "TEXCOORD_0": "1cf203da32581454",
+     "WEIGHTS_0": "395273fc64f451c0",
+     "indices": "70d5e7bd060bc8ec"
+    }
+   ],
+   "a0_000_mb_base__nails LOD0": [
+    {
+     "JOINTS_0": "8ed35f3a86e32f9d",
+     "NORMAL": "07723f7e11fe03c6",
+     "POSITION": "2c8a45edf378f7ed",
+     "TANGENT": "b83982b33e522de4",
+     "TEXCOORD_0": "79af0af11429d617",
+     "WEIGHTS_0": "d59c00ee239a2891",
+     "indices": "82b0204546739178"
+    },
+    {
+     "JOINTS_0": "f5fb5b074a49fb4f",
+     "NORMAL": "08817913485c02cc",
+     "POSITION": "4da7a0bcefe12485",
+     "TANGENT": "c3bbb92c72e3d894",
+     "TEXCOORD_0": "f0e7fe3f90a78960",
+     "WEIGHTS_0": "6e03331da5bdcfc4",
+     "indices": "6952b8766ac6b6fc"
+    }
+   ],
+   "hair LOD0": [
+    {
+     "JOINTS_0": "fa450de172f193a0",
+     "JOINTS_1": "fa450de172f193a0",
+     "NORMAL": "f7dde172cf523dce",
+     "POSITION": "eb71412576c08f6e",
+     "TANGENT": "636d050525a717d8",
+     "TEXCOORD_0": "fd5a92a4282f98a1",
+     "TEXCOORD_1": "627bfec5f72290c3",
+     "WEIGHTS_0": "3122bd7c71be94a6",
+     "WEIGHTS_1": "ba469b95f5626ae1",
+     "indices": "c34e98f64be528d5"
+    },
+    {
+     "JOINTS_0": "46468d3d5f28f23c",
+     "JOINTS_1": "46468d3d5f28f23c",
+     "NORMAL": "547bd8fdb5b153f3",
+     "POSITION": "5357c5e5e8d93a5b",
+     "TANGENT": "ab24fc407a60948c",
+     "TEXCOORD_0": "f168e40dabf6ec14",
+     "TEXCOORD_1": "cdb4bf7a6062e708",
+     "WEIGHTS_0": "6d3291b6b3803b3c",
+     "WEIGHTS_1": "5b8fda732ad74675",
+     "indices": "af8a32507799026d"
+    },
+    {
+     "JOINTS_0": "51c98ae31958e489",
+     "JOINTS_1": "b17717e950408108",
+     "NORMAL": "216d625459b5771c",
+     "POSITION": "d73ef73295531f74",
+     "TANGENT": "6b18da4aed915a8f",
+     "TEXCOORD_0": "3cf1579584ca5fae",
+     "WEIGHTS_0": "9587c6dd24ad9b3d",
+     "WEIGHTS_1": "fb1e44464dbb4567",
+     "indices": "86f2888647005319"
+    },
+    {
+     "JOINTS_0": "52f033ec34066343",
+     "JOINTS_1": "52f033ec34066343",
+     "NORMAL": "234c295b0b66711d",
+     "POSITION": "d3123de710e75ffc",
+     "TANGENT": "793f0a9c0a88b3ee",
+     "TEXCOORD_0": "34966c66d945c1f0",
+     "TEXCOORD_1": "6c85f08160ab625f",
+     "WEIGHTS_0": "76b6fb9c068c89de",
+     "WEIGHTS_1": "98c87f2e8ed0d35a",
+     "indices": "e10a8f4e6efcd59f"
+    }
+   ],
+   "teeth LOD0": [
+    {
+     "JOINTS_0": "e8cae55f3f1c2c24",
+     "JOINTS_1": "497de5997dccfdd6",
+     "NORMAL": "32f0425c2bf6887b",
+     "POSITION": "8667df8b14494e8e",
+     "TANGENT": "e7780cb210432f9b",
+     "TEXCOORD_0": "ad1570703c82be59",
+     "TEXCOORD_1": "d264211cf60fe9bd",
+     "WEIGHTS_0": "effc15d55ff0d957",
+     "WEIGHTS_1": "fbc555b7e8ba66cd",
+     "indices": "8389b5a42e708559"
+    }
+   ],
+   "head LOD0": [
+    {
+     "JOINTS_0": "5703f5cc943efcfb",
+     "JOINTS_1": "5367c0a62338c9e5",
+     "NORMAL": "eff048c22ae05d41",
+     "POSITION": "627762e9c159ddb8",
+     "TANGENT": "91c437ccdf4b4ebe",
+     "TEXCOORD_0": "f2557f453245ac04",
+     "TEXCOORD_1": "027b196355bb9b8a",
+     "WEIGHTS_0": "2585cbd427fcdacf",
+     "WEIGHTS_1": "a446dcf61b50b7ac",
+     "indices": "4e9b63ce304b4451"
+    }
+   ],
+   "eyes LOD0": [
+    {
+     "JOINTS_0": "b47a8ef8539d1aec",
+     "NORMAL": "0526be7243b3c91f",
+     "POSITION": "d44e4791365e9f14",
+     "TANGENT": "35f645c4c28737b5",
+     "TEXCOORD_0": "1306b3abddbbca09",
+     "TEXCOORD_1": "1306b3abddbbca09",
+     "WEIGHTS_0": "29798bef3f59e65c",
+     "indices": "d92e1822cbf0de54"
+    },
+    {
+     "JOINTS_0": "7a9b7b01e46f3556",
+     "JOINTS_1": "6094431d721d4915",
+     "NORMAL": "50c0732b6a59e6dc",
+     "POSITION": "22b1b94d703d2bcb",
+     "TANGENT": "ab087b3338823415",
+     "TEXCOORD_0": "4717cc1dcc8bcfee",
+     "TEXCOORD_1": "4717cc1dcc8bcfee",
+     "WEIGHTS_0": "a83a1a9cad4a09b5",
+     "WEIGHTS_1": "e5246ad96336e211",
+     "indices": "b20d50484758e2bd"
+    },
+    {
+     "JOINTS_0": "de023e01a2b5c0c1",
+     "JOINTS_1": "fd1f15451407df4e",
+     "NORMAL": "b69eef41a16bf92a",
+     "POSITION": "ffe1cc78b694681f",
+     "TANGENT": "083ccdfbf402dccc",
+     "TEXCOORD_0": "7354c26b473d5b39",
+     "TEXCOORD_1": "7354c26b473d5b39",
+     "WEIGHTS_0": "3e20fafb3e505b4f",
+     "WEIGHTS_1": "92f7030b54c35646",
+     "indices": "aa6db667a7668dc1"
+    }
+   ],
+   "h0_001_mb_c__jackie_welles_personal_slot_dec LOD0": [
+    {
+     "JOINTS_0": "1ff6a6624615dc10",
+     "JOINTS_1": "e4acdd67e02bfcb7",
+     "NORMAL": "5ca206a770badee9",
+     "POSITION": "213100efe978daaf",
+     "TANGENT": "02e3b22d4329c93f",
+     "TEXCOORD_0": "bd764cefd1706174",
+     "WEIGHTS_0": "a72bc3b4b4240f05",
+     "WEIGHTS_1": "51ed6e895d416272",
+     "indices": "779ab7b4e5761cf6"
+    },
+    {
+     "JOINTS_0": "b64ac1c24f46c269",
+     "JOINTS_1": "a22edad44ac4a21f",
+     "NORMAL": "722ff76496bf0f39",
+     "POSITION": "3947da2d621dbeeb",
+     "TANGENT": "2b88e40a7f0c7732",
+     "TEXCOORD_0": "fe3610fab9320383",
+     "WEIGHTS_0": "29c9c20d00af332b",
+     "WEIGHTS_1": "2f2aabed41de49f2",
+     "indices": "b0e88462d6a9a72a"
+    }
+   ],
+   "h0_001_mb_c__jackie_welles_dec_cyberware LOD0": [
+    {
+     "JOINTS_0": "fdbecf7ed10b1cbe",
+     "JOINTS_1": "219390abeafa23f1",
+     "NORMAL": "157a0c385faebe4b",
+     "POSITION": "21d70588234cdd62",
+     "TANGENT": "83672eb1e1a87439",
+     "TEXCOORD_0": "edbd33d9dae99ebb",
+     "WEIGHTS_0": "9cf2789e54d0aaa6",
+     "WEIGHTS_1": "f4bfd3e4ce8186f1",
+     "indices": "5559026020d67726"
+    },
+    {
+     "JOINTS_0": "b8de291017681ed8",
+     "JOINTS_1": "fa59dd7b3de85731",
+     "NORMAL": "ea39e4e53399d7d9",
+     "POSITION": "17cf930678f5e49a",
+     "TANGENT": "402cb4a742f88623",
+     "TEXCOORD_0": "6b8701684ccafc16",
+     "WEIGHTS_0": "1e6938ce2042ece8",
+     "WEIGHTS_1": "0befe84b628e63bc",
+     "indices": "51caf8b810b56359"
+    },
+    {
+     "JOINTS_0": "a8587098421cda07",
+     "JOINTS_1": "ed7fb66950512f8c",
+     "NORMAL": "094ea09c4f5eaab9",
+     "POSITION": "318361e947d1abf7",
+     "TANGENT": "cba6b76a13805eb2",
+     "TEXCOORD_0": "78663c2aef43d6d5",
+     "WEIGHTS_0": "1d8e2b8e51be6687",
+     "WEIGHTS_1": "345bbbc8322ed8f7",
+     "indices": "e9bd357ea686b444"
+    }
+   ],
+   "heb_001_mb_c__jackie_welles LOD0": [
+    {
+     "JOINTS_0": "31839cae0815ee62",
+     "JOINTS_1": "33bfaba0c0619ebf",
+     "NORMAL": "651c66c68a8aea56",
+     "POSITION": "40f370e25df4a31c",
+     "TANGENT": "281eb65945d225d0",
+     "TEXCOORD_0": "7eefb80c32c9e498",
+     "TEXCOORD_1": "e985c6d023feed2e",
+     "WEIGHTS_0": "d55ea9a635f57431",
+     "WEIGHTS_1": "bd16a63ddcb9ffc5",
+     "indices": "0fb13f6ba97e604c"
+    }
+   ],
+   "t2_001_full__jackie_welles6078 LOD0": [
+    {
+     "JOINTS_0": "fcd72e55802f5885",
+     "JOINTS_1": "974e045feb23b41c",
+     "NORMAL": "17c8631697babdc3",
+     "POSITION": "9865f8488a17a299",
+     "TANGENT": "81008bbf20d21e57",
+     "TEXCOORD_0": "be5624ca4949a819",
+     "WEIGHTS_0": "d610c59c53402788",
+     "WEIGHTS_1": "0d0cb66d90b096d0",
+     "indices": "4e7868eaa635092f"
+    },
+    {
+     "JOINTS_0": "57eda3717ee17809",
+     "JOINTS_1": "16a3fe6da6dd0b12",
+     "NORMAL": "a1b8246196c4cb50",
+     "POSITION": "653220863c42d41a",
+     "TANGENT": "a4cb8c69f1b64c55",
+     "TEXCOORD_0": "1ec63c4039b4191a",
+     "WEIGHTS_0": "7728c5419022c3ff",
+     "WEIGHTS_1": "7a68fee2f16b6c36",
+     "indices": "d42633d2737e27a1"
+    },
+    {
+     "JOINTS_0": "98f1abce04fc4e2a",
+     "JOINTS_1": "094b308b5f516014",
+     "NORMAL": "5ca010fa5cccfd0b",
+     "POSITION": "8c9c95f33221ecdc",
+     "TANGENT": "9940c4cdac8d7c0d",
+     "TEXCOORD_0": "6c52d6499cb0b05e",
+     "WEIGHTS_0": "4f059f2805101ba8",
+     "WEIGHTS_1": "2eba44c2f2286fb4",
+     "indices": "8b64f1b4714b611b"
+    }
+   ],
+   "i3_001_full__jackie_welles LOD0": [
+    {
+     "JOINTS_0": "af06b1d47444eb2e",
+     "JOINTS_1": "ea763481cdd89383",
+     "NORMAL": "3ae7c6c46dfaab70",
+     "POSITION": "f965f46553ed4356",
+     "TANGENT": "17ee9c81cb28ad24",
+     "TEXCOORD_0": "b9983e64b99b2e0b",
+     "WEIGHTS_0": "2b9535ab2ceef780",
+     "WEIGHTS_1": "32cbf0fa4fadb787",
+     "indices": "176d7ed3e0165a02"
+    },
+    {
+     "JOINTS_0": "8415d64e93a51b6a",
+     "JOINTS_1": "342663b69d49d623",
+     "NORMAL": "0c8dc5be6309f74a",
+     "POSITION": "e6b720aa20899f1b",
+     "TANGENT": "636f5203a4c1645f",
+     "TEXCOORD_0": "668140e2de2ec6c5",
+     "WEIGHTS_0": "530ae1b858e3d911",
+     "WEIGHTS_1": "668b40e5ef59a737",
+     "indices": "e881009a90b6c19b"
+    }
+   ],
+   "t2_001_full__jackie_welles_dec_stitches LOD0": [
+    {
+     "JOINTS_0": "f9ffc012d39bbf32",
+     "JOINTS_1": "431df6eeab563e7f",
+     "NORMAL": "7ae46079a0d93c14",
+     "POSITION": "778756bc8e7640a4",
+     "TANGENT": "67b01a0cf2f1f30a",
+     "TEXCOORD_0": "7d009fca0b1842b6",
+     "WEIGHTS_0": "c388dec9db785fac",
+     "WEIGHTS_1": "77fa3d505ff0e5c6",
+     "indices": "6baaffb69023f41f"
+    },
+    {
+     "JOINTS_0": "03bd58f60616953f",
+     "JOINTS_1": "33f3a66b0582bb10",
+     "NORMAL": "674b9ad7840887f3",
+     "POSITION": "9ec8459b60d020e5",
+     "TANGENT": "142dad3f1097195a",
+     "TEXCOORD_0": "6506eb070c774741",
+     "WEIGHTS_0": "caa552cfcdde09c8",
+     "WEIGHTS_1": "5b33b75a73faa7a5",
+     "indices": "82e17dd265e91e8e"
+    },
+    {
+     "JOINTS_0": "17b6c5786a90ef13",
+     "JOINTS_1": "87e521d8c2dc0e01",
+     "NORMAL": "d39ea4c78a12d045",
+     "POSITION": "d37139c4af9beefe",
+     "TANGENT": "3e02f71805b354c3",
+     "TEXCOORD_0": "8ae418d3c56e6c54",
+     "WEIGHTS_0": "9402c06414f71c94",
+     "WEIGHTS_1": "a63294c158c0d6f6",
+     "indices": "42bd6db85e6fe1ee"
+    }
+   ],
+   "i1_001_full__jackie_welles LOD0": [
+    {
+     "JOINTS_0": "10ff6d8b61cfccd8",
+     "JOINTS_1": "11d84522f0c3e5da",
+     "NORMAL": "8b23277449b7fbc6",
+     "POSITION": "23f92b7e3de7ddee",
+     "TANGENT": "ff022998b5523e38",
+     "TEXCOORD_0": "c64101a7bd77ed19",
+     "TEXCOORD_1": "c64101a7bd77ed19",
+     "WEIGHTS_0": "845165ab33725bc5",
+     "WEIGHTS_1": "9509f711a2a75882",
+     "indices": "4b41b4af3f075649"
+    }
+   ],
+   "i2_001_full__jackie_welles LOD0": [
+    {
+     "JOINTS_0": "f1d1ca793bf8dffe",
+     "NORMAL": "dcfcc57f2b570da6",
+     "POSITION": "ddb5d065303c15db",
+     "TANGENT": "e993af1c1ad5b0c0",
+     "TEXCOORD_0": "39eb330fc8254444",
+     "TEXCOORD_1": "304f8c169e707172",
+     "WEIGHTS_0": "6e25623565276e92",
+     "indices": "b6a5fb27615fd68a"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "skinWeightSumMaxDeviation": 1e-07,
+   "bindPoseSkinningMaxError_mm": 0.1738,
+   "orientation": {
+    "leftSideIsPlusX": true,
+    "upIsPlusY": true,
+    "forwardIsPlusZ": true
+   }
+  },
+  "ibm": "f535d9d041dc9399",
+  "joints": "d3d0591a6426cd1d",
+  "ibm_1": "c2d4351444d22608",
+  "joints_1": "52c1631832511411",
+  "ibm_2": "2ea7aa15cf1ee6c9",
+  "joints_2": "9b7cbda48a27dae3",
+  "ibm_3": "fd0fe019d90d85c1",
+  "joints_3": "59616b3fb570d76c",
+  "ibm_4": "3e33209bf9a1eda1",
+  "joints_4": "2e0b8f676fe16653",
+  "ibm_5": "1cb3e4fba1b0121f",
+  "joints_5": "e40865a968aba374",
+  "ibm_6": "13aa15fcf0dd2569",
+  "joints_6": "815f98ef1373083d",
+  "ibm_7": "32cbf6eb383c3dfd",
+  "joints_7": "a979210a4cda7547",
+  "ibm_8": "a60fe699bfba625e",
+  "joints_8": "e2ba71e37c796340",
+  "ibm_9": "25e82fcaa175eaf9",
+  "joints_9": "e0170fe16fb8b26e",
+  "ibm_10": "878689766860e2f0",
+  "joints_10": "5201aea9bac2f986",
+  "ibm_11": "01d0526b3fa0ed08",
+  "joints_11": "ac244d01e9ca06c6",
+  "ibm_12": "e1215cce10bdd46a",
+  "joints_12": "0094a984184e4e28",
+  "ibm_13": "405578402cd18c58",
+  "joints_13": "f260e5b7eb6a3f6c",
+  "ibm_14": "90b66c9db103ac5a",
+  "joints_14": "1eb9f0b666d6b029",
+  "ibm_15": "239c4cfe797f7aab",
+  "joints_15": "a9bac24417a64c27",
+  "ibm_16": "b570f209e5c18b33",
+  "joints_16": "9058ccab5641c5fa"
+ },
+ "building3": {
+  "meshes": {
+   "rancho_coroonado_building3.mesh LOD0": [
+    {
+     "NORMAL": "b22c72bcc318036f",
+     "POSITION": "27b1a77ae5e86ee1",
+     "TANGENT": "b2936715c5b22fdd",
+     "TEXCOORD_0": "3aef11e62490425d",
+     "indices": "1e44013a9483d4ca"
+    }
+   ],
+   "rancho_coroonado_building3.mesh LOD1": [
+    {
+     "NORMAL": "0b490f18c9e12863",
+     "POSITION": "ebf76ed7d4f1f150",
+     "TANGENT": "923778f3b9e2ba40",
+     "TEXCOORD_0": "07fbd20cc388e03f",
+     "indices": "5a2fbaa45ee2cce5"
+    }
+   ],
+   "rancho_coroonado_building3.mesh LOD2": [
+    {
+     "NORMAL": "462bfdef8e582722",
+     "POSITION": "013d1653cc9cfb2b",
+     "TANGENT": "e8cccca1c7c730fc",
+     "TEXCOORD_0": "be5d2bdba5d59e19",
+     "indices": "3fbb4ebd44b78f8b"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "countsMatchResearchReport": {
+    "LOD0": "match",
+    "LOD1": "match",
+    "LOD2": "match"
+   },
+   "lod0BoundsMaxDiffVsReport_mm": 0.004
+  }
+ },
+ "judy_assembled": {
+  "meshes": {
+   "t0_001_wa_body__judy5216 LOD0": [
+    {
+     "JOINTS_0": "9cd280eeb229c3a9",
+     "JOINTS_1": "379e8eed6d95687f",
+     "NORMAL": "7d11abfb076aaed5",
+     "POSITION": "6464f85ec635997e",
+     "TANGENT": "530f6302bd179a67",
+     "TEXCOORD_0": "e860c17c2a47113b",
+     "WEIGHTS_0": "f3454ef1e9dc059d",
+     "WEIGHTS_1": "89769924b3804935",
+     "indices": "7db6cdfd5e578112"
+    },
+    {
+     "JOINTS_0": "fcbbbfd497c8446b",
+     "JOINTS_1": "a3c717d28039d1cc",
+     "NORMAL": "3470470ba9709f02",
+     "POSITION": "97475ca762a0726e",
+     "TANGENT": "e7441df245bf3ace",
+     "TEXCOORD_0": "8b7de7c9453f7a46",
+     "WEIGHTS_0": "bc3fba790dc045e5",
+     "WEIGHTS_1": "cfc816d9364df33d",
+     "indices": "837e9dc0572d66b6"
+    }
+   ],
+   "a0_000_wa_base__nails_r LOD0": [
+    {
+     "JOINTS_0": "bb7f2789e7ec46be",
+     "NORMAL": "f2f8d2ce5fd60769",
+     "POSITION": "6d1cd02bc3b57bba",
+     "TANGENT": "983c4619550edf00",
+     "TEXCOORD_0": "fbb1fb1bd8f9fcbd",
+     "WEIGHTS_0": "c813e12947974a86",
+     "indices": "e330625bf4ac40f1"
+    }
+   ],
+   "a0_000_wa_base__nails_l LOD0": [
+    {
+     "JOINTS_0": "bb7f2789e7ec46be",
+     "NORMAL": "ba91416853c369b2",
+     "POSITION": "a565fa35cd67c9e3",
+     "TANGENT": "b39452acea2da0b7",
+     "TEXCOORD_0": "5cf0141512cb07b3",
+     "WEIGHTS_0": "c813e12947974a86",
+     "indices": "680daec9919fdddd"
+    }
+   ],
+   "t1_001_wa_tank__judy6238 LOD0": [
+    {
+     "JOINTS_0": "1091eaf0d87fb047",
+     "JOINTS_1": "2509c5d1633e5bae",
+     "NORMAL": "ac84dd6aeac6ca94",
+     "POSITION": "4a72bbd329383866",
+     "TANGENT": "2f43dba7520226bf",
+     "TEXCOORD_0": "3fea643b1430ade3",
+     "WEIGHTS_0": "f68a5a27ad1bd72f",
+     "WEIGHTS_1": "1b24e7604eda3362",
+     "indices": "8ce4364e4cedcb71"
+    },
+    {
+     "JOINTS_0": "a23f89af5df922e1",
+     "JOINTS_1": "9c0f36dbfe88f7bf",
+     "NORMAL": "a2b36109de5938b1",
+     "POSITION": "a0a72b148d421281",
+     "TANGENT": "8417d6e5d8db9c22",
+     "TEXCOORD_0": "02f8e68a0ef16542",
+     "WEIGHTS_0": "aa0bb926c134f100",
+     "WEIGHTS_1": "7af00512cb3f9b41",
+     "indices": "df38f1950f57c0f1"
+    }
+   ],
+   "s1_074_wa_shoe__platform_shoe8766 LOD0": [
+    {
+     "JOINTS_0": "5672179563029ba7",
+     "NORMAL": "a80b448add4b0011",
+     "POSITION": "53c65efeedc55de3",
+     "TANGENT": "6e10c1c157716f83",
+     "TEXCOORD_0": "986738b9c4515b8b",
+     "WEIGHTS_0": "18b425701220dc24",
+     "indices": "064b7df44c6ab190"
+    },
+    {
+     "JOINTS_0": "6716f3920677dd68",
+     "NORMAL": "0ded8fa40548817a",
+     "POSITION": "0215d5c9d02647f2",
+     "TANGENT": "3f5b8ef053517884",
+     "TEXCOORD_0": "cff519a67ede3adf",
+     "WEIGHTS_0": "086f81b2d5d0e190",
+     "indices": "81b4acfbfa41bac3"
+    },
+    {
+     "JOINTS_0": "7d9cd875b9c0eae2",
+     "NORMAL": "985b07331d3feaa5",
+     "POSITION": "87d05d7e8533e1ee",
+     "TANGENT": "179ef3e4adccdd5f",
+     "TEXCOORD_0": "5edcea4acd1e1fa9",
+     "WEIGHTS_0": "dc8b60f546d4d827",
+     "indices": "447265aca346004d"
+    }
+   ],
+   "h0_001_wa_c__judy LOD0": [
+    {
+     "JOINTS_0": "f9c522f6c65fbe48",
+     "JOINTS_1": "2de1163d4a9c3e98",
+     "NORMAL": "c71bdb63d5ae1209",
+     "POSITION": "ea6974bc7a111e18",
+     "TANGENT": "8f1b0fe4856b3915",
+     "TEXCOORD_0": "8e1ee018048d6198",
+     "TEXCOORD_1": "14fb93ac2c959f42",
+     "WEIGHTS_0": "a393ce4129a7933e",
+     "WEIGHTS_1": "e715744e669f6da9",
+     "indices": "84cc769bb50ca010"
+    }
+   ],
+   "he_001_wa_c__judy LOD0": [
+    {
+     "JOINTS_0": "3463c8b60fc014f1",
+     "JOINTS_1": "fa15c67b490b983e",
+     "NORMAL": "0c87662740169b73",
+     "POSITION": "7be4878eee3fea49",
+     "TANGENT": "7b9ca07afa3b7d67",
+     "TEXCOORD_0": "fc4e6310c7d75227",
+     "TEXCOORD_1": "fc4e6310c7d75227",
+     "WEIGHTS_0": "41d526087431b985",
+     "WEIGHTS_1": "5bb5f690ca623aa9",
+     "indices": "8950f93dd48ea1e7"
+    },
+    {
+     "JOINTS_0": "3fc08283f61569a9",
+     "NORMAL": "2c58f136e0366954",
+     "POSITION": "4f4a558163799f2b",
+     "TANGENT": "5fbed66c60527fea",
+     "TEXCOORD_0": "1306b3abddbbca09",
+     "TEXCOORD_1": "1306b3abddbbca09",
+     "WEIGHTS_0": "a5311c7cc848f39d",
+     "indices": "bd54eb8d0e474fa9"
+    },
+    {
+     "JOINTS_0": "309e284e5418e21f",
+     "JOINTS_1": "6c7e2468e6479c09",
+     "NORMAL": "6b20f176d8eaf479",
+     "POSITION": "3384f850a80ffd34",
+     "TANGENT": "d361f90c94e817e7",
+     "TEXCOORD_0": "c743832219c4b6fb",
+     "TEXCOORD_1": "c743832219c4b6fb",
+     "WEIGHTS_0": "15e8abeefb3126b8",
+     "WEIGHTS_1": "bd3e2bc08423f74c",
+     "indices": "363c1b7a9c5c74a3"
+    }
+   ],
+   "ht_001_wa_c__judy LOD0": [
+    {
+     "JOINTS_0": "97c759de3ab70a0b",
+     "JOINTS_1": "cb591f8a50762ea8",
+     "NORMAL": "e17316f2acfe2737",
+     "POSITION": "f433267f3b280941",
+     "TANGENT": "2ae9aae328398e14",
+     "TEXCOORD_0": "3b065386246f1b4e",
+     "TEXCOORD_1": "3c04ee4726f6b4d5",
+     "WEIGHTS_0": "628f2140acccc356",
+     "WEIGHTS_1": "26fc11141752b9d2",
+     "indices": "fd2f0197d12caa5c"
+    }
+   ],
+   "h0_001_wa_c__judy_dec LOD0": [
+    {
+     "JOINTS_0": "6e9cb993a0d6813f",
+     "JOINTS_1": "e5d079b43e770812",
+     "NORMAL": "99320a2ecea81002",
+     "POSITION": "0cd1a5149aa3978b",
+     "TANGENT": "818a37de317f7c2b",
+     "TEXCOORD_0": "6ce63c9a318d35b5",
+     "WEIGHTS_0": "8baf8e5f2eed96d0",
+     "WEIGHTS_1": "ac8e02533826b64d",
+     "indices": "65d45882def73bc3"
+    }
+   ],
+   "h0_001_wa_c__judy_cyberware LOD0": [
+    {
+     "JOINTS_0": "42606a2a708a1a59",
+     "JOINTS_1": "d30401d5ab5d0238",
+     "NORMAL": "0c8589a028d25d63",
+     "POSITION": "50875c44ac5bba2a",
+     "TANGENT": "1b067406c71247f5",
+     "TEXCOORD_0": "479d1b7da9e41783",
+     "WEIGHTS_0": "61ab2474db3815a2",
+     "WEIGHTS_1": "6bfb163b553e2ad8",
+     "indices": "9bea4ebdaacf035b"
+    },
+    {
+     "JOINTS_0": "eefe4836db4100ce",
+     "JOINTS_1": "c678e5cb5953a9e0",
+     "NORMAL": "42e4405e0576f17b",
+     "POSITION": "58fad1e224970dc7",
+     "TANGENT": "69b3edf30a14ad12",
+     "TEXCOORD_0": "b4f0065c2b003bbd",
+     "WEIGHTS_0": "ad65b16bce464e78",
+     "WEIGHTS_1": "73f6ed423f6dceb2",
+     "indices": "b47279cebc5f510c"
+    }
+   ],
+   "h0_001_wa_c__judy_cyberware5426 LOD0": [
+    {
+     "JOINTS_0": "c71776f0f2f5c1e8",
+     "JOINTS_1": "6888d7e531f25ad4",
+     "NORMAL": "80626dae4347af74",
+     "POSITION": "b638f3e646f608ee",
+     "TANGENT": "20ba60666d9a42b2",
+     "TEXCOORD_0": "fb2bd60d9c392b31",
+     "WEIGHTS_0": "8286256cb8979d61",
+     "WEIGHTS_1": "57f83c8de6449471",
+     "indices": "229a1b3a7f7b4129"
+    }
+   ],
+   "hx_001_wa_c__judy_makeup_eyes_01 LOD0": [
+    {
+     "JOINTS_0": "683903ea409aa8e7",
+     "JOINTS_1": "bf84741f36be91a0",
+     "NORMAL": "b6ea3e14ff7dad5f",
+     "POSITION": "57ca2acaa206526f",
+     "TANGENT": "88c09b8aa60ff3be",
+     "TEXCOORD_0": "d5cf4335feb5f6d0",
+     "TEXCOORD_1": "54e22eb7792da3e8",
+     "WEIGHTS_0": "015abedb4fe3cf6d",
+     "WEIGHTS_1": "79e7af15b83421e0",
+     "indices": "bd0dd70d1d3aab78"
+    }
+   ],
+   "hx_001_wa_c__judy_makeup_freckles_01 LOD0": [
+    {
+     "JOINTS_0": "3d0e6dd64f431313",
+     "JOINTS_1": "e80ea99d9c061b95",
+     "NORMAL": "7abb356e9a0c6ec9",
+     "POSITION": "7c5f7235ccc83422",
+     "TANGENT": "15d2ead13052b4fd",
+     "TEXCOORD_0": "05901d0f1bf3369e",
+     "TEXCOORD_1": "0a76b3d116eb6855",
+     "WEIGHTS_0": "b97b51c3d1f6d84b",
+     "WEIGHTS_1": "e5e1e6b46c3be103",
+     "indices": "a4c6bb12b44ba700"
+    },
+    {
+     "JOINTS_0": "f8eb408ebed70cff",
+     "JOINTS_1": "9e936d44ef84577d",
+     "NORMAL": "486e8bcd00b734ad",
+     "POSITION": "0037ccc7f20b2c54",
+     "TANGENT": "200a077c5e30d949",
+     "TEXCOORD_0": "74e9034c496ead77",
+     "TEXCOORD_1": "0338100814409818",
+     "WEIGHTS_0": "cf02512e1981289e",
+     "WEIGHTS_1": "ba8f281c72f4abcf",
+     "indices": "c3602b43edcc62f0"
+    }
+   ],
+   "hx_001_wa_c__judy_makeup_lips_01 LOD0": [
+    {
+     "JOINTS_0": "8b328cf75ee439f5",
+     "JOINTS_1": "1d4899e8815fb119",
+     "NORMAL": "f191876e7fad3dc5",
+     "POSITION": "de7e3056a78710a5",
+     "TANGENT": "160027a6524238f2",
+     "TEXCOORD_0": "c71dcf90665b82b6",
+     "TEXCOORD_1": "3fa515bc43e4815b",
+     "WEIGHTS_0": "2c04d438752aae10",
+     "WEIGHTS_1": "9fe7dcace35d1c0e",
+     "indices": "d027c600bc60a826"
+    }
+   ],
+   "hh_051_wa__judy LOD0": [
+    {
+     "JOINTS_0": "df78418700a5d41d",
+     "JOINTS_1": "991c34fb99efe846",
+     "NORMAL": "d3aae129c4ea5b6d",
+     "POSITION": "62a09c8a3a5752e5",
+     "TANGENT": "7efe05686f2ca18a",
+     "TEXCOORD_0": "32ac25f7a837caba",
+     "WEIGHTS_0": "6f4d060bc6c51539",
+     "WEIGHTS_1": "5c05937aa68c6f1e",
+     "indices": "20c679867634293b"
+    },
+    {
+     "JOINTS_0": "929d0fe9267ba0a3",
+     "JOINTS_1": "3f2948ca0c7f4a7b",
+     "NORMAL": "504bca81f90da601",
+     "POSITION": "abd037131bec3453",
+     "TANGENT": "acacf4e1add7fb21",
+     "TEXCOORD_0": "635a54cdf04c4239",
+     "WEIGHTS_0": "6975eeb9e1a62652",
+     "WEIGHTS_1": "ad2fcfd8cc35d6d8",
+     "indices": "a76886f2d9cf2cee"
+    },
+    {
+     "JOINTS_0": "4d08a0a9546998b4",
+     "JOINTS_1": "d16ab26073477a6f",
+     "NORMAL": "005572855e6d0125",
+     "POSITION": "2f8c73a38b9bb652",
+     "TANGENT": "4ffd7dc9deee69c0",
+     "TEXCOORD_0": "e2535558840ad711",
+     "WEIGHTS_0": "c68feb159aab784b",
+     "WEIGHTS_1": "1005162f81a6ac51",
+     "indices": "bad33789b45f1239"
+    }
+   ],
+   "hh_051_wa__judy_shadow_npc LOD0": [
+    {
+     "JOINTS_0": "47704a91153f2d79",
+     "NORMAL": "d2f9c7dd6f9ecfa1",
+     "POSITION": "7eb0939f0f16d7e8",
+     "TANGENT": "06c8ab07f3a446ae",
+     "TEXCOORD_0": "0b2e366b5e6551d2",
+     "WEIGHTS_0": "72bf1302bbb85613",
+     "indices": "90738fad5f14ca06"
+    }
+   ],
+   "l1_001_wa_pants__judy4552 LOD0": [
+    {
+     "JOINTS_0": "c860a6d2cad598f2",
+     "JOINTS_1": "ecf3fdce7cc574ec",
+     "NORMAL": "f1131b71bb478448",
+     "POSITION": "7a32dc1e08127a00",
+     "TANGENT": "4ba6104a72d20f74",
+     "TEXCOORD_0": "703c199954357dd4",
+     "WEIGHTS_0": "ab97c3b24b9dfe82",
+     "WEIGHTS_1": "e14e04be74e74989",
+     "indices": "227afaef09cb05c3"
+    },
+    {
+     "JOINTS_0": "7ca3c3135548e824",
+     "JOINTS_1": "55bd9cc70ad44538",
+     "NORMAL": "c57657b59dc80ea3",
+     "POSITION": "9e7fb7ce9b9844d3",
+     "TANGENT": "b43f876d9798e423",
+     "TEXCOORD_0": "669eadfcabc1ce35",
+     "WEIGHTS_0": "0e77bdda5633a71a",
+     "WEIGHTS_1": "68e2a30f3754703e",
+     "indices": "290a8b54fe771949"
+    },
+    {
+     "JOINTS_0": "01703da80d4b0645",
+     "JOINTS_1": "d5e15d1a9628e542",
+     "NORMAL": "90abfa30ed52f17d",
+     "POSITION": "ddbcff2dcaf3b350",
+     "TANGENT": "4efa02f00f363360",
+     "TEXCOORD_0": "00600ea096e446b6",
+     "WEIGHTS_0": "6e70b9d20bd98319",
+     "WEIGHTS_1": "d7caa19239f354a5",
+     "indices": "10f3bd67bcfdcdbf"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "skinWeightSumMaxDeviation": 1e-07,
+   "bindPoseSkinningMaxError_mm": 4.142,
+   "orientation": {
+    "leftSideIsPlusX": true,
+    "upIsPlusY": true,
+    "forwardIsPlusZ": true
+   }
+  },
+  "ibm": "1f440209f18a43da",
+  "joints": "eaa5f8c1a4e24930",
+  "ibm_1": "bae8b4b8c28da145",
+  "joints_1": "9086f96193971125",
+  "ibm_2": "a818faaecc9bfc7b",
+  "joints_2": "2bc1c71c13f39198",
+  "ibm_3": "c4cf1491a476b31b",
+  "joints_3": "b7aa4d094a652938",
+  "ibm_4": "57c617596d63a2d9",
+  "joints_4": "89cd799395e89d3a",
+  "ibm_5": "818edc6b0a233acf",
+  "joints_5": "34b8c2ce4ec6f461",
+  "ibm_6": "df1a66458c979e13",
+  "joints_6": "8027a9ed8afc7b2f",
+  "ibm_7": "e33de1cd6cf5dd24",
+  "joints_7": "15677ac8e845db28",
+  "ibm_8": "478aea5bde9703f3",
+  "joints_8": "fb15c29d56f2600e",
+  "ibm_9": "dedc87ac8a8acf07",
+  "joints_9": "0209ca39468413a8",
+  "ibm_10": "acc613b32f013136",
+  "joints_10": "516cbf887122030f",
+  "ibm_11": "5da1f0a74287b6b1",
+  "joints_11": "a64455b4ff69f9da",
+  "ibm_12": "48180a0b0cc15c9b",
+  "joints_12": "d7ecd239a921e1bd",
+  "ibm_13": "553db1525ea7acbd",
+  "joints_13": "922a1ed7ae4d4d59",
+  "ibm_14": "bc4f4f099d71272b",
+  "joints_14": "fb043fa2b9d6bc72",
+  "ibm_15": "28b4b7d6623eb7ee",
+  "joints_15": "bb7f17791ec3facc",
+  "ibm_16": "c1826a005f2f4ae8",
+  "joints_16": "dbc3d4251e754a16"
+ },
+ "npc_corporat_ma_assembled": {
+  "meshes": {
+   "t0_000_ma__c_base_full9394 LOD0": [
+    {
+     "JOINTS_0": "b1c93c1ffb3455ae",
+     "JOINTS_1": "3d1644cc58156ad9",
+     "NORMAL": "4ab7a5bfe92ae712",
+     "POSITION": "bf4d2c7694b805d1",
+     "TANGENT": "fde46cbf42c7a50d",
+     "TEXCOORD_0": "c0c721d665d76f36",
+     "WEIGHTS_0": "fee150aaa719fece",
+     "WEIGHTS_1": "fda924aa30a1e96e",
+     "indices": "560a8990f067e117"
+    },
+    {
+     "JOINTS_0": "520af03c3f957e6b",
+     "JOINTS_1": "e14a41592f335112",
+     "NORMAL": "0bf3161d8cace806",
+     "POSITION": "9c30a20057619efc",
+     "TANGENT": "5747d54545812f92",
+     "TEXCOORD_0": "d461cfdb4d829d3d",
+     "WEIGHTS_0": "5d48a45e7addbf0e",
+     "WEIGHTS_1": "11ae3df7cc979641",
+     "indices": "032762f8d1c7742c"
+    },
+    {
+     "JOINTS_0": "16b5dde011219494",
+     "NORMAL": "d6a97160979a8b71",
+     "POSITION": "60521200f034c20d",
+     "TANGENT": "212a4734bf627e40",
+     "TEXCOORD_0": "2e31a6aa5c940ea6",
+     "WEIGHTS_0": "1e8814e67467a08e",
+     "indices": "a8273ebeb513356c"
+    },
+    {
+     "JOINTS_0": "1e8183ed62ee277b",
+     "JOINTS_1": "5a5e55d4c2ed171e",
+     "NORMAL": "632dfba48ecdec9f",
+     "POSITION": "543f9662ee7746d3",
+     "TANGENT": "262fa1b9abd4456e",
+     "TEXCOORD_0": "5539eb019f8d5d94",
+     "WEIGHTS_0": "eca879d1783fec1a",
+     "WEIGHTS_1": "818e3f278dc95cd7",
+     "indices": "a33105cc1e89f9c6"
+    }
+   ],
+   "s1_010_ma_shoe__elegant5827 LOD0": [
+    {
+     "JOINTS_0": "629df722d929e24b",
+     "NORMAL": "62aeda337c33e28c",
+     "POSITION": "c07c3509f7c52613",
+     "TANGENT": "35bc8fd33ec9c2fb",
+     "TEXCOORD_0": "75f4f7f5300a08c0",
+     "WEIGHTS_0": "be318ff6eb76394f",
+     "indices": "75f2057dedfd674c"
+    }
+   ],
+   "s1_010_ma_shoe__elegant_socks LOD0": [
+    {
+     "JOINTS_0": "3cd92b60fd290704",
+     "NORMAL": "700b1ffd9e28a905",
+     "POSITION": "5c26838e6797cb68",
+     "TANGENT": "430deef1cafd2318",
+     "TEXCOORD_0": "5fb47c5323f94236",
+     "WEIGHTS_0": "11fb5b89217d28b7",
+     "indices": "3a86a30f5f21d71e"
+    }
+   ],
+   "hh_058_ma__voodoo_013726 LOD0": [
+    {
+     "JOINTS_0": "2cb00fa4add789ea",
+     "JOINTS_1": "031ede103deadcb4",
+     "NORMAL": "fb023a18b7e9d3d4",
+     "POSITION": "6175b012f5bd4a71",
+     "TANGENT": "4bc3cbd50bb747a7",
+     "TEXCOORD_0": "6ac28e8fdb787d51",
+     "WEIGHTS_0": "a4a7f41681f558ed",
+     "WEIGHTS_1": "74734d0c7bf31ae5",
+     "indices": "b982a4fb87d149d7"
+    },
+    {
+     "JOINTS_0": "1eb36ac5d27901e3",
+     "JOINTS_1": "870cad50a9d9ac0e",
+     "NORMAL": "e2844cfd094ef418",
+     "POSITION": "f4ba02aec683fb1e",
+     "TANGENT": "c4883590ec0c297c",
+     "TEXCOORD_0": "38bb47a44566aa57",
+     "TEXCOORD_1": "45b13d32cc59eaae",
+     "WEIGHTS_0": "6dc179cea3cf3e59",
+     "WEIGHTS_1": "a387457bd9a77cad",
+     "indices": "80d21d608586f8fc"
+    }
+   ],
+   "hh_058_ma__voodoo_shadow_npc LOD0": [
+    {
+     "JOINTS_0": "46be13d2dc57d15a",
+     "NORMAL": "555f5194c8a44783",
+     "POSITION": "e6525ee126e93919",
+     "TANGENT": "453a6c97067873f5",
+     "TEXCOORD_0": "2c21951dbab792ec",
+     "WEIGHTS_0": "3f5ba923d1455740",
+     "indices": "4c5a719482f233c3"
+    }
+   ],
+   "h1_026_ma_hat__net_conn8268 LOD0": [
+    {
+     "JOINTS_0": "9a7b9897c789295f",
+     "NORMAL": "0b408a83093fc80c",
+     "POSITION": "bf4b730f9a8ab082",
+     "TANGENT": "37c9f2cd2316c72d",
+     "TEXCOORD_0": "1c78ca23ee7fd387",
+     "WEIGHTS_0": "dd27afa55aabce3a",
+     "indices": "19d24c555320a6e4"
+    },
+    {
+     "JOINTS_0": "374708fff7719dd5",
+     "NORMAL": "a34736009f96c588",
+     "POSITION": "76890777a8f62ac5",
+     "TANGENT": "c72f2983779338a8",
+     "TEXCOORD_0": "5c9a8134d199c93f",
+     "WEIGHTS_0": "145add6557f34985",
+     "indices": "e6681333c21d3bed"
+    }
+   ],
+   "t2_130_maf_jacket__gangster1402 LOD0": [
+    {
+     "JOINTS_0": "f77b77975dcd0ae6",
+     "JOINTS_1": "18d461dfbb151854",
+     "NORMAL": "a94887760a998e43",
+     "POSITION": "701bfefd6b3fcc17",
+     "TANGENT": "c535aadf0aa88239",
+     "TEXCOORD_0": "f768a558d3a4fba7",
+     "WEIGHTS_0": "0c3566bdc1468f72",
+     "WEIGHTS_1": "3b24f7f1bf129ee9",
+     "indices": "5d4a360c09c66cab"
+    },
+    {
+     "JOINTS_0": "17c3498a307c219e",
+     "JOINTS_1": "8a04a07ba99f496c",
+     "NORMAL": "3407f29b77262bea",
+     "POSITION": "d017a3a9837f50d0",
+     "TANGENT": "26cc85e5cf2cc944",
+     "TEXCOORD_0": "d98aa3be5083ed2a",
+     "WEIGHTS_0": "edcd24aada2bfc5b",
+     "WEIGHTS_1": "ecec0fb8d3ea1c5d",
+     "indices": "938bad8a9cc518f2"
+    },
+    {
+     "JOINTS_0": "e477197fe2a8c542",
+     "JOINTS_1": "bba6239d1773f1fb",
+     "NORMAL": "915bd43bfe39979a",
+     "POSITION": "c9ae51c61cb31c27",
+     "TANGENT": "c734ff20faeecc34",
+     "TEXCOORD_0": "854d411bd62ba607",
+     "WEIGHTS_0": "57476531cd01794f",
+     "WEIGHTS_1": "3a8fc1d97b740296",
+     "indices": "4f0710e019324409"
+    },
+    {
+     "JOINTS_0": "4723632cc0682243",
+     "JOINTS_1": "e4b4d95af7c2ec8d",
+     "NORMAL": "c84d826c4f44eaed",
+     "POSITION": "f19f3475f58ed9ec",
+     "TANGENT": "cbb7078207304022",
+     "TEXCOORD_0": "1108a66b04c2d194",
+     "WEIGHTS_0": "06c9cc5932668b71",
+     "WEIGHTS_1": "dc47378fc260f8ac",
+     "indices": "28628cdf14ce9a83"
+    },
+    {
+     "JOINTS_0": "d0b8e32101084f7a",
+     "JOINTS_1": "228e7de127cfa8ce",
+     "NORMAL": "a14f37d9c50999bd",
+     "POSITION": "5ecbe03a903b0975",
+     "TANGENT": "ac10c0d64e77295c",
+     "TEXCOORD_0": "3ed536319a8af65e",
+     "WEIGHTS_0": "9dfb01201c430bc8",
+     "WEIGHTS_1": "dc3ab8347f18c505",
+     "indices": "7cc7e11575337af0"
+    },
+    {
+     "JOINTS_0": "7cea33d5cc3b6c9e",
+     "JOINTS_1": "9c2870667f2d3813",
+     "NORMAL": "187fed925620b7bb",
+     "POSITION": "f8df52f6e65f8789",
+     "TANGENT": "48bb9916aa88a27f",
+     "TEXCOORD_0": "003af1a36441be4c",
+     "WEIGHTS_0": "053b6674e0557284",
+     "WEIGHTS_1": "67c370f4d496bdc7",
+     "indices": "f6dc32dbef3ce66b"
+    },
+    {
+     "JOINTS_0": "d3479bb411feb81c",
+     "JOINTS_1": "8f09bcae41851d26",
+     "NORMAL": "d2527e35fbc0d9cd",
+     "POSITION": "495cd7c19969af0f",
+     "TANGENT": "27acc58829b41327",
+     "TEXCOORD_0": "ba79fa81039505a0",
+     "WEIGHTS_0": "69887c2a2acc578b",
+     "WEIGHTS_1": "96c7680c23c70e1d",
+     "indices": "5d1b65b58e4e12a5"
+    },
+    {
+     "JOINTS_0": "0b7d5d75e87fec4a",
+     "JOINTS_1": "c86369954c63ab60",
+     "NORMAL": "199848258047062a",
+     "POSITION": "f9636a19f142e35a",
+     "TANGENT": "df3787ba4d917dd9",
+     "TEXCOORD_0": "241607d369a150bc",
+     "WEIGHTS_0": "7dd06862ca8574e1",
+     "WEIGHTS_1": "a81e3dd039909cca",
+     "indices": "ee22968a42792dba"
+    },
+    {
+     "JOINTS_0": "ae6808a88c313a72",
+     "JOINTS_1": "ba44b25de3cc1f02",
+     "NORMAL": "74b8f53d6bbf804c",
+     "POSITION": "2d2c49343a418764",
+     "TANGENT": "f2c40d43cc78f1a7",
+     "TEXCOORD_0": "aa8a5e9329ab8e85",
+     "WEIGHTS_0": "2a737328c5957572",
+     "WEIGHTS_1": "97912721bda17063",
+     "indices": "96c54cd705037fe8"
+    },
+    {
+     "JOINTS_0": "568691809c470e08",
+     "JOINTS_1": "c0fb947102c34c8a",
+     "NORMAL": "1d428f9ceae87cc2",
+     "POSITION": "a01ea443e9bbc200",
+     "TANGENT": "aef509fad1be8667",
+     "TEXCOORD_0": "f0ed97a6c9a87267",
+     "WEIGHTS_0": "bffc783315658b43",
+     "WEIGHTS_1": "a319d0e07fddca92",
+     "indices": "7af6d0176131f4ef"
+    }
+   ],
+   "l1_003_ma_pants__jeans2347 LOD0": [
+    {
+     "JOINTS_0": "1d459445393a714b",
+     "JOINTS_1": "efb28635ac3975b6",
+     "NORMAL": "aab2bbcdb3346fcb",
+     "POSITION": "909ff96bb44a0174",
+     "TANGENT": "cd9694ebe84c13e5",
+     "TEXCOORD_0": "9ce6855ec3416f66",
+     "WEIGHTS_0": "2c074cee3699f55b",
+     "WEIGHTS_1": "4776ec9cdaa2a2e0",
+     "indices": "c2de4df3df185816"
+    }
+   ],
+   "he_052_ma_b__older LOD0": [
+    {
+     "JOINTS_0": "8a7da43aa5ab6937",
+     "JOINTS_1": "7882eead19f125bf",
+     "NORMAL": "ab1226a892c0cfa0",
+     "POSITION": "62156ee2e96eeb28",
+     "TANGENT": "0f502db1ef9528c2",
+     "TEXCOORD_0": "eac062a53ac65382",
+     "TEXCOORD_1": "eac062a53ac65382",
+     "WEIGHTS_0": "5db2faff6ec31092",
+     "WEIGHTS_1": "f207204ae24f17da",
+     "indices": "b049f565d641065b"
+    },
+    {
+     "JOINTS_0": "48c8e9d52023b0de",
+     "JOINTS_1": "f54a6c17059d5a6c",
+     "NORMAL": "9dd27c03defa1646",
+     "POSITION": "53f439b249af4c6c",
+     "TANGENT": "56643231e5459cf8",
+     "TEXCOORD_0": "4744a3ca3697448f",
+     "TEXCOORD_1": "4744a3ca3697448f",
+     "WEIGHTS_0": "48c5d6f6a87f0ba2",
+     "WEIGHTS_1": "1ad9b0b8df9d6dff",
+     "indices": "6aa5d92e06fbbde3"
+    },
+    {
+     "JOINTS_0": "ba403446cd06eca1",
+     "JOINTS_1": "2e003dd41786bf51",
+     "NORMAL": "82b68c6bde686420",
+     "POSITION": "65b6e82461c67ee2",
+     "TANGENT": "86553498a854da20",
+     "TEXCOORD_0": "138f07b1317de403",
+     "TEXCOORD_1": "138f07b1317de403",
+     "WEIGHTS_0": "c9db6bb8bfd37088",
+     "WEIGHTS_1": "34373c3d2b25c5bf",
+     "indices": "95e4e04c42dafb4b"
+    }
+   ],
+   "ht_052_ma_b__older LOD0": [
+    {
+     "JOINTS_0": "e8cae55f3f1c2c24",
+     "JOINTS_1": "497de5997dccfdd6",
+     "NORMAL": "c65f06ccd6eb6330",
+     "POSITION": "e98cf594cd007d86",
+     "TANGENT": "0704cb143b28c6a7",
+     "TEXCOORD_0": "241c0a4453498dcf",
+     "TEXCOORD_1": "de6c75b0cf8a89bb",
+     "WEIGHTS_0": "2dac509d96ba966b",
+     "WEIGHTS_1": "a3ad3a8b3cc54d9d",
+     "indices": "4a241da6c8c76768"
+    }
+   ],
+   "h0_052_ma_b__older LOD0": [
+    {
+     "JOINTS_0": "bab9a581824b8ce3",
+     "JOINTS_1": "2c43bca98665d255",
+     "NORMAL": "c9c2bd27489c4cc6",
+     "POSITION": "13b0dcb38e8e633c",
+     "TANGENT": "bad40f8f4987fc96",
+     "TEXCOORD_0": "e1463a6f49c845fb",
+     "TEXCOORD_1": "74903c910611d020",
+     "WEIGHTS_0": "c0d77faeb08c04ae",
+     "WEIGHTS_1": "6d3ba7a42ea30351",
+     "indices": "6200fe656909e96e"
+    }
+   ],
+   "heb_052_ma_b__older LOD0": [
+    {
+     "JOINTS_0": "ac81b9b2a3a0e3fd",
+     "JOINTS_1": "08de59229359804e",
+     "NORMAL": "3a3152c2b8d7050a",
+     "POSITION": "199fd3e77d737e89",
+     "TANGENT": "aab79a23fee451f9",
+     "TEXCOORD_0": "e5ce7354eef90cc2",
+     "TEXCOORD_1": "238528a726a8b5dd",
+     "WEIGHTS_0": "b3f4f73396658f13",
+     "WEIGHTS_1": "0d20fd60523bf44f",
+     "indices": "7d38e8f87e1f8a43"
+    }
+   ]
+  },
+  "checks": {
+   "indicesInRange": true,
+   "normalUnitLengthMaxDeviation": 1e-07,
+   "skinWeightSumMaxDeviation": 1e-07,
+   "bindPoseSkinningMaxError_mm": 4.8456,
+   "orientation": {
+    "leftSideIsPlusX": true,
+    "upIsPlusY": true,
+    "forwardIsPlusZ": true
+   }
+  },
+  "ibm": "9d98c9b4cdfc5a98",
+  "joints": "5731f90d9a5f690f",
+  "ibm_1": "ebd9460c05b3b054",
+  "joints_1": "c1d3a55d559d77d6",
+  "ibm_2": "77df280dc71277ca",
+  "joints_2": "f44c77ad5a98fa5b",
+  "ibm_3": "1c51bf24a22fe7a8",
+  "joints_3": "29bda55caa1e0818",
+  "ibm_4": "6e6edc31efcbebc1",
+  "joints_4": "5a86837047d3f581",
+  "ibm_5": "6e6edc31efcbebc1",
+  "joints_5": "5a86837047d3f581",
+  "ibm_6": "654c1ada25db8400",
+  "joints_6": "a9e5b8e85a889346",
+  "ibm_7": "040dd4aa6352f1ae",
+  "joints_7": "4c7473a26bef4a50",
+  "ibm_8": "248ae722a18b062c",
+  "joints_8": "7e76064e7517c143",
+  "ibm_9": "e955eae622bbe4fa",
+  "joints_9": "519a2ff4c3a5aaf4",
+  "ibm_10": "639f9554ee81be2e",
+  "joints_10": "d318b083ea425ebb",
+  "ibm_11": "70dde4a2727c1932",
+  "joints_11": "de927d1374586db8"
+ }
+}

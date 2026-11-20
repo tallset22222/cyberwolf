@@ -1,0 +1,38 @@
+﻿# Third-party and unknown folders stay local
+WolvenKit-main/
+references/
+copy/
+copy1/
+# Game-derived data stays local
+cp77-work/extract/
+cp77-work/inventory/
+cp77-work/pipeline_cache/
+cp77-work/pipeline_out/
+cp77-work/_to_delete/
+cp77-work/docs/*.json
+cp77-work/basebody/**
+!cp77-work/basebody/**/
+!cp77-work/basebody/**/*.py
+!cp77-work/basebody/**/*.md
+cp77-work/tests_assets/**
+!cp77-work/tests_assets/**/
+!cp77-work/tests_assets/**/*.md
+# Game formats and media, anywhere
+*.mesh
+*.xbm
+*.mi
+*.animgraph
+*.mltemplate
+*.buffer0
+*.glb
+*.fbx
+*.obj
+*.npy
+*.npz
+*.png
+*.jpg
+*.target
+*.log
+*.mp4
+__pycache__/
+*.pyc

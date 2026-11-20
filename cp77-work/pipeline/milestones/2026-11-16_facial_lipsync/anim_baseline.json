@@ -1,0 +1,107 @@
+{
+ "mb_corpo_smg_action_patrolling.anims:idle_stand__to__ws_corpo_long_gun_pose__turn0__01": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "241a8a564c87ec07"
+ },
+ "mb_corpo_smg_action_patrolling.anims:ws_corpo_long_gun_pose__to__idle_stand__turn0__01": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "b1a8eba057eae02e"
+ },
+ "mb_corpo_smg_action_patrolling.anims:idle_stand_shuffle_01": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "3cdd8e0d15441621"
+ },
+ "mb_corpo_smg_action_patrolling.anims:idle_stand_shuffle_02": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "0dc513d3c0e2b1da"
+ },
+ "mb_corpo_smg_action_patrolling.anims:idle_stand_shuffle_03": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "81082c8330667600"
+ },
+ "mb_corpo_smg_action_patrolling.anims:idle_stand_shuffle_04": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "ad5133d2a57a97cb"
+ },
+ "mb_corpo_smg_action_patrolling.anims:ws_corpo_long_gun_pose": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "56d855f0edf4d9b6"
+ },
+ "mb_corpo_smg_action_patrolling.anims:ws_corpo_long_gun_pose__shuffle__01": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "4ed5f7b9bdcb09e3"
+ },
+ "mb_corpo_smg_action_patrolling.anims:ws_corpo_long_gun_pose__shuffle__02": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "4ec3aa8b9bd4b21c"
+ },
+ "mb_corpo_smg_action_patrolling.anims:ws_corpo_long_gun_pose__shuffle__03": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "d114b7a344d6ac47"
+ },
+ "mb_corpo_smg_action_patrolling.anims:ws_corpo_long_gun_pose__shuffle__04": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "3e69db8992500762"
+ },
+ "ma_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_0": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "c29cf2f2204051c3"
+ },
+ "ma_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_90": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "127a84454226fda3"
+ },
+ "ma_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_180l": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "7f74f1d70bd650c5"
+ },
+ "ma_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_180r": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "7399d5cc3fa9f535"
+ },
+ "ma_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_270": {
+  "format": "animAnimationBufferCompressed",
+  "bytesOk": true,
+  "poses": "76b9bf9f9d234f77"
+ },
+ "wa_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_270": {
+  "format": "animAnimationBufferSimd",
+  "bytesOk": true,
+  "poses": "6013f564e22e7be4"
+ },
+ "wa_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_0": {
+  "format": "animAnimationBufferSimd",
+  "bytesOk": true,
+  "poses": "d81f016491fc2d51"
+ },
+ "wa_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_180l": {
+  "format": "animAnimationBufferSimd",
+  "bytesOk": true,
+  "poses": "a626beeacd082b20"
+ },
+ "wa_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_90": {
+  "format": "animAnimationBufferSimd",
+  "bytesOk": true,
+  "poses": "aa191bc86c9091ee"
+ },
+ "wa_gang_unarmed_reaction_ranged_supine_to_stand.anims:supine_to_stand_180r": {
+  "format": "animAnimationBufferSimd",
+  "bytesOk": true,
+  "poses": "9f9ebd0159860b70"
+ }
+}

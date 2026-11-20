@@ -27,8 +27,9 @@ checked independently against the data:
 | Vertex normals agree with face winding | 100% | 99.7–100% | 99.7–100% | 99.4–99.98% |
 | Tangent follows +U | 99.2–100% | 99.9–100% | 99.6–100% | 83–86% ² |
 | UV NaN | 0 | 0 | 0 | 0 |
-Winding: consistent single sign across every mesh (the source mesh data examined here is left-handed and Z-up; the WolvenKit source consulted documents a
-conversion to Y-up, right-handed coordinates).
+Winding: consistent single sign across every mesh. The source data is right-handed and Z-up, with clockwise front
+faces: in the decoded rigs, characters face +Y and the model's left side is at −X (e.g. `LeftFoot` x = −0.180,
+`LeftToeBase` y > `LeftFoot` y). The WolvenKit source consulted documents a conversion to Y-up coordinates.
 Vertex colour: one constant value per chunk in all four meshes (unused). UV1: Jackie LOD0–1 only (separate layout,
 v range −0.99…0.53); zero elsewhere.
 ¹ Building LOD1–2 contain some non-unit normals (direction still consistent). ² Building: likely mirrored/rotated UV

@@ -1,0 +1,120 @@
+{
+ "breasts": {
+  "chunks": 1245,
+  "live": 38,
+  "nodesToInit_extra": [
+   "MathExpressionVector",
+   "Root",
+   "VectorInput"
+  ]
+ },
+ "deformations": {
+  "chunks": 753,
+  "live": 420,
+  "nodesToInit_extra": [
+   "Root"
+  ]
+ },
+ "dangles": [
+  {
+   "node": 12,
+   "live": true,
+   "particles": 8
+  },
+  {
+   "node": 54,
+   "live": true,
+   "particles": 8
+  },
+  {
+   "node": 1032,
+   "live": false,
+   "particles": 4
+  },
+  {
+   "node": 1049,
+   "live": false,
+   "particles": 2
+  },
+  {
+   "node": 1065,
+   "live": false,
+   "particles": 4
+  },
+  {
+   "node": 1189,
+   "live": false,
+   "particles": 8
+  },
+  {
+   "node": 1217,
+   "live": false,
+   "particles": 8
+  }
+ ],
+ "breast_cone": {
+  "nodes": 98
+ },
+ "rest_default_cfg": {
+  "bones": 114,
+  "exact": 46,
+  "breast_rig_bones": {
+   "l_SHL_0_JNT": [
+    0.0,
+    0.0
+   ],
+   "r_SHL_0_JNT": [
+    0.0,
+    0.0
+   ],
+   "l_chest_front_A_bot_out_JNT": [
+    3.49,
+    1.93
+   ],
+   "l_chest_front_B_top_out_JNT": [
+    2.09,
+    1.94
+   ],
+   "l_chest_front_B_bot_out_JNT": [
+    3.14,
+    5.5
+   ],
+   "l_chest_front_C_top_out_JNT": [
+    0.35,
+    0.34
+   ],
+   "l_chest_front_C_bot_out_JNT": [
+    3.12,
+    3.96
+   ],
+   "r_chest_front_A_bot_out_JNT": [
+    3.5,
+    1.94
+   ],
+   "r_chest_front_B_top_out_JNT": [
+    2.09,
+    1.94
+   ],
+   "r_chest_front_B_bot_out_JNT": [
+    3.14,
+    5.5
+   ],
+   "r_chest_front_C_top_out_JNT": [
+    0.35,
+    0.34
+   ],
+   "r_chest_front_C_bot_out_JNT": [
+    3.12,
+    4.02
+   ],
+   "l_deltoid_front_bot_out_JNT": [
+    1.32,
+    7.43
+   ],
+   "r_deltoid_front_bot_out_JNT": [
+    1.32,
+    7.43
+   ]
+  }
+ }
+}

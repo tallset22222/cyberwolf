@@ -1,0 +1,89 @@
+{
+ "judy_hair": {
+  "systems": [
+   {
+    "particles": 26,
+    "pinned": 7,
+    "links": 19,
+    "cones": 19,
+    "capsules": [],
+    "ellipsoids": 0,
+    "gravityStated": null
+   }
+  ],
+  "multipleParents": 0
+ },
+ "judy_pants": {
+  "systems": [
+   {
+    "particles": 8,
+    "pinned": 2,
+    "links": 6,
+    "cones": 6,
+    "capsules": [
+     [
+      "RightUpLeg",
+      0.09,
+      0.19
+     ],
+     [
+      "LeftUpLeg",
+      0.09,
+      0.19
+     ]
+    ],
+    "ellipsoids": 0,
+    "gravityStated": null
+   }
+  ],
+  "multipleParents": 1
+ },
+ "jackie_jacket": {
+  "systems": [
+   {
+    "particles": 34,
+    "pinned": 34,
+    "links": 17,
+    "cones": 0,
+    "capsules": [
+     [
+      "Head",
+      0.105,
+      0.05
+     ],
+     [
+      "Head",
+      0.09,
+      0.0567
+     ],
+     [
+      "Neck1",
+      0.0834,
+      0.018
+     ]
+    ],
+    "ellipsoids": 0,
+    "gravityStated": 0.0
+   },
+   {
+    "particles": 9,
+    "pinned": 2,
+    "links": 5,
+    "cones": 5,
+    "capsules": [],
+    "ellipsoids": 3,
+    "gravityStated": 8.0
+   },
+   {
+    "particles": 10,
+    "pinned": 4,
+    "links": 6,
+    "cones": 6,
+    "capsules": [],
+    "ellipsoids": 0,
+    "gravityStated": null
+   }
+  ],
+  "multipleParents": 17
+ }
+}

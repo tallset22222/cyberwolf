@@ -1,0 +1,557 @@
+{
+ "standard": "cyberwolf_character",
+ "standard_version": "0.2-draft",
+ "content": "drawn (non-loop) region boundaries as ordered vertex chains",
+ "mesh": {
+  "name": "MakeHuman hm08 base.obj",
+  "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+  "group": "body",
+  "obj_vertices_used": 13380,
+  "body_faces": 13378
+ },
+ "indexing": "vertex ids: 0-based OBJ vertex index; face ids: 0-based index over all f lines of the OBJ",
+ "generator": "basebody/export_topology_binding.py",
+ "boundaries": {
+  "abdomen|back_lower": {
+   "between": [
+    "abdomen",
+    "back_lower"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     4017,
+     4031,
+     4160,
+     4140,
+     4047
+    ],
+    [
+     10675,
+     10688,
+     10801,
+     10783,
+     10703
+    ]
+   ]
+  },
+  "back_upper|chest": {
+   "between": [
+    "back_upper",
+    "chest"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     1505,
+     1483,
+     1482
+    ],
+    [
+     1690,
+     3935,
+     3949,
+     3963,
+     3962,
+     3976,
+     3990,
+     3989,
+     4003,
+     4017
+    ],
+    [
+     8189,
+     8169,
+     8168
+    ],
+    [
+     8362,
+     10599,
+     10612,
+     10625,
+     10624,
+     10637,
+     10650,
+     10649,
+     10662,
+     10675
+    ]
+   ]
+  },
+  "back_upper|shoulder_cap_l": {
+   "between": [
+    "back_upper",
+    "shoulder_cap_l"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     8168,
+     8167,
+     8225,
+     8224,
+     8223,
+     8233,
+     8232,
+     8237,
+     8238,
+     8282,
+     8293,
+     10453,
+     10536,
+     8365,
+     8284,
+     8285,
+     8286,
+     8296,
+     8362
+    ]
+   ]
+  },
+  "back_upper|shoulder_cap_r": {
+   "between": [
+    "back_upper",
+    "shoulder_cap_r"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     1482,
+     1481,
+     1546,
+     1545,
+     1544,
+     1555,
+     1554,
+     1559,
+     1560,
+     1610,
+     1621,
+     3787,
+     3871,
+     1693,
+     1612,
+     1613,
+     1614,
+     1624,
+     1690
+    ]
+   ]
+  },
+  "chest|shoulder_cap_l": {
+   "between": [
+    "chest",
+    "shoulder_cap_l"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     8168,
+     8089,
+     8079,
+     8141,
+     8078,
+     8077,
+     10420,
+     10421,
+     8070,
+     8060,
+     8061,
+     8051,
+     8052,
+     8053,
+     8124,
+     8125,
+     8356,
+     8355,
+     8100,
+     8136,
+     8137,
+     8111,
+     8362
+    ]
+   ]
+  },
+  "chest|shoulder_cap_r": {
+   "between": [
+    "chest",
+    "shoulder_cap_r"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     1482,
+     1397,
+     1387,
+     1453,
+     1386,
+     1385,
+     3753,
+     3754,
+     1378,
+     1368,
+     1369,
+     1359,
+     1360,
+     1361,
+     1436,
+     1437,
+     1684,
+     1683,
+     1412,
+     1448,
+     1449,
+     1423,
+     1690
+    ]
+   ]
+  },
+  "ears|face": {
+   "between": [
+    "ears",
+    "face"
+   ],
+   "status": "placeholder: rule-generated box; must be authored (no edge loop at the ear root on hm08)",
+   "chains": [
+    [
+     5395,
+     5399,
+     5403,
+     5767,
+     5741,
+     5742,
+     5415,
+     5437,
+     5459,
+     5469,
+     5654,
+     5491,
+     5701,
+     5711,
+     5585,
+     5514,
+     5515,
+     5532,
+     5525,
+     5535,
+     5526,
+     5521,
+     5500,
+     5509,
+     5587,
+     5600,
+     5719,
+     5480,
+     5486,
+     5617,
+     5464,
+     5442,
+     5420,
+     5732,
+     5761,
+     5768,
+     5406
+    ],
+    [
+     11994,
+     11998,
+     12002,
+     12364,
+     12338,
+     12339,
+     12014,
+     12036,
+     12058,
+     12068,
+     12251,
+     12090,
+     12298,
+     12308,
+     12182,
+     12113,
+     12114,
+     12131,
+     12124,
+     12134,
+     12125,
+     12120,
+     12099,
+     12108,
+     12184,
+     12197,
+     12316,
+     12079,
+     12085,
+     12214,
+     12063,
+     12041,
+     12019,
+     12329,
+     12358,
+     12365,
+     12005
+    ]
+   ]
+  },
+  "ears|scalp": {
+   "between": [
+    "ears",
+    "scalp"
+   ],
+   "status": "placeholder: rule-generated box; must be authored (no edge loop at the ear root on hm08)",
+   "chains": [
+    [
+     5406,
+     5407,
+     5410,
+     5409,
+     5565,
+     5408,
+     935,
+     942,
+     1004,
+     1005,
+     950,
+     5384,
+     957,
+     958,
+     5378,
+     965,
+     964,
+     863,
+     5369,
+     1008,
+     5395
+    ],
+    [
+     12005,
+     12006,
+     12009,
+     12008,
+     12162,
+     12007,
+     7636,
+     7642,
+     7698,
+     7699,
+     7649,
+     11984,
+     7655,
+     7656,
+     11979,
+     7662,
+     7661,
+     7568,
+     11970,
+     7702,
+     11994
+    ]
+   ]
+  },
+  "face|neck_upper": {
+   "between": [
+    "face",
+    "neck_upper"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     751,
+     766,
+     764,
+     763,
+     1033,
+     1034,
+     3693,
+     788,
+     924,
+     925,
+     926,
+     782,
+     781,
+     783,
+     7499,
+     7500,
+     7628,
+     7627,
+     7626,
+     7504,
+     10361,
+     7726,
+     7725,
+     7482,
+     7483,
+     7485,
+     7470
+    ],
+    [
+     687,
+     693,
+     7414,
+     7415,
+     7416,
+     7401,
+     7400,
+     7399,
+     676,
+     670,
+     671,
+     672,
+     689,
+     688,
+     687
+    ]
+   ]
+  },
+  "face|scalp": {
+   "between": [
+    "face",
+    "scalp"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     751,
+     749,
+     750,
+     748,
+     996,
+     738,
+     884,
+     5406
+    ],
+    [
+     5395,
+     987,
+     975,
+     974,
+     986,
+     1009,
+     5548,
+     5549,
+     980,
+     981,
+     226,
+     1014,
+     1015,
+     7707,
+     7000,
+     7677,
+     7676,
+     12147,
+     12146,
+     7703,
+     7681,
+     7670,
+     7671,
+     7682,
+     11994
+    ],
+    [
+     7470,
+     7468,
+     7469,
+     7467,
+     7690,
+     7458,
+     7586,
+     12005
+    ]
+   ]
+  },
+  "neck_upper|scalp": {
+   "between": [
+    "neck_upper",
+    "scalp"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     751,
+     752,
+     818,
+     824,
+     830,
+     836,
+     842,
+     848,
+     1053,
+     1019,
+     854,
+     7711,
+     7745,
+     7559,
+     7553,
+     7547,
+     7541,
+     7535,
+     7529,
+     7471,
+     7470
+    ]
+   ]
+  },
+  "pelvis_back|pelvis_front": {
+   "between": [
+    "pelvis_back",
+    "pelvis_front"
+   ],
+   "status": "baseline: rule-generated, hand refinement pending",
+   "chains": [
+    [
+     4047,
+     4061,
+     4131,
+     4132,
+     4164,
+     4396,
+     4269,
+     4272,
+     4278,
+     4284,
+     4290,
+     4296,
+     4302,
+     4308,
+     4314,
+     4406
+    ],
+    [
+     4425,
+     4421,
+     4413,
+     4384,
+     4380,
+     4375,
+     4377,
+     4376,
+     10996,
+     10995,
+     10999,
+     11003,
+     11031,
+     11039,
+     11043
+    ],
+    [
+     10703,
+     10716,
+     10774,
+     10775,
+     10805,
+     11014,
+     10899,
+     10902,
+     10908,
+     10914,
+     10920,
+     10926,
+     10932,
+     10938,
+     10944,
+     11024
+    ]
+   ]
+  }
+ }
+}

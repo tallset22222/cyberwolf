@@ -1,0 +1,305 @@
+{
+ "standard": "cyberwolf_character",
+ "version": "0.1-draft",
+ "mask_width_bits": 64,
+ "regions": [
+  {
+   "bit": 0,
+   "name": "scalp",
+   "bounded_by": [
+    "hairline",
+    "ears"
+   ],
+   "note": "hidden by helmets, hair caps"
+  },
+  {
+   "bit": 1,
+   "name": "face",
+   "bounded_by": [
+    "hairline",
+    "jawline"
+   ],
+   "note": "hidden only by full masks; optional per item"
+  },
+  {
+   "bit": 2,
+   "name": "ears",
+   "bounded_by": [
+    "scalp"
+   ],
+   "note": "both ears"
+  },
+  {
+   "bit": 3,
+   "name": "neck_upper",
+   "bounded_by": [
+    "jawline",
+    "seam neck_mid"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 4,
+   "name": "neck_lower",
+   "bounded_by": [
+    "seam neck_mid",
+    "seam neck_base"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 5,
+   "name": "chest",
+   "bounded_by": [
+    "seam neck_base",
+    "ribcage line",
+    "mid-axillary lines",
+    "seams shoulder_l/r"
+   ],
+   "note": "front torso above the ribcage line"
+  },
+  {
+   "bit": 6,
+   "name": "abdomen",
+   "bounded_by": [
+    "ribcage line",
+    "seam waist",
+    "mid-axillary lines"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 7,
+   "name": "back_upper",
+   "bounded_by": [
+    "seam neck_base",
+    "back mid line",
+    "mid-axillary lines"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 8,
+   "name": "back_lower",
+   "bounded_by": [
+    "back mid line",
+    "seam waist"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 9,
+   "name": "pelvis_front",
+   "bounded_by": [
+    "seam waist",
+    "seams hip_l/r"
+   ],
+   "note": "includes the groin"
+  },
+  {
+   "bit": 10,
+   "name": "pelvis_back",
+   "bounded_by": [
+    "seam waist",
+    "gluteal folds"
+   ],
+   "note": "glutes"
+  },
+  {
+   "bit": 11,
+   "name": "shoulder_cap_l",
+   "bounded_by": [
+    "seam shoulder_l",
+    "chest",
+    "back_upper"
+   ],
+   "note": "deltoid cap"
+  },
+  {
+   "bit": 12,
+   "name": "upperarm_upper_l",
+   "bounded_by": [
+    "seam shoulder_l",
+    "seam upperarm_mid_l"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 13,
+   "name": "upperarm_lower_l",
+   "bounded_by": [
+    "seam upperarm_mid_l",
+    "seam elbow_l"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 14,
+   "name": "elbow_l",
+   "bounded_by": [
+    "seam elbow_l",
+    "forearm 15%"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 15,
+   "name": "forearm_l",
+   "bounded_by": [
+    "forearm 15%",
+    "seam wrist_l"
+   ],
+   "note": "split at forearm_mid allowed later (reserved bit)"
+  },
+  {
+   "bit": 16,
+   "name": "hand_l",
+   "bounded_by": [
+    "seam wrist_l"
+   ],
+   "note": "hand and fingers"
+  },
+  {
+   "bit": 17,
+   "name": "thigh_upper_l",
+   "bounded_by": [
+    "seam hip_l",
+    "seam thigh_mid_l"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 18,
+   "name": "thigh_lower_l",
+   "bounded_by": [
+    "seam thigh_mid_l",
+    "seam knee_l"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 19,
+   "name": "knee_l",
+   "bounded_by": [
+    "seam knee_l",
+    "shin 15%"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 20,
+   "name": "shin_l",
+   "bounded_by": [
+    "shin 15%",
+    "seam ankle_l"
+   ],
+   "note": "split at shin_mid allowed later (reserved bit)"
+  },
+  {
+   "bit": 21,
+   "name": "foot_l",
+   "bounded_by": [
+    "seam ankle_l"
+   ],
+   "note": "foot and toes"
+  },
+  {
+   "bit": 22,
+   "name": "shoulder_cap_r",
+   "bounded_by": [
+    "seam shoulder_r",
+    "chest",
+    "back_upper"
+   ],
+   "note": "deltoid cap"
+  },
+  {
+   "bit": 23,
+   "name": "upperarm_upper_r",
+   "bounded_by": [
+    "seam shoulder_r",
+    "seam upperarm_mid_r"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 24,
+   "name": "upperarm_lower_r",
+   "bounded_by": [
+    "seam upperarm_mid_r",
+    "seam elbow_r"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 25,
+   "name": "elbow_r",
+   "bounded_by": [
+    "seam elbow_r",
+    "forearm 15%"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 26,
+   "name": "forearm_r",
+   "bounded_by": [
+    "forearm 15%",
+    "seam wrist_r"
+   ],
+   "note": "split at forearm_mid allowed later (reserved bit)"
+  },
+  {
+   "bit": 27,
+   "name": "hand_r",
+   "bounded_by": [
+    "seam wrist_r"
+   ],
+   "note": "hand and fingers"
+  },
+  {
+   "bit": 28,
+   "name": "thigh_upper_r",
+   "bounded_by": [
+    "seam hip_r",
+    "seam thigh_mid_r"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 29,
+   "name": "thigh_lower_r",
+   "bounded_by": [
+    "seam thigh_mid_r",
+    "seam knee_r"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 30,
+   "name": "knee_r",
+   "bounded_by": [
+    "seam knee_r",
+    "shin 15%"
+   ],
+   "note": ""
+  },
+  {
+   "bit": 31,
+   "name": "shin_r",
+   "bounded_by": [
+    "shin 15%",
+    "seam ankle_r"
+   ],
+   "note": "split at shin_mid allowed later (reserved bit)"
+  },
+  {
+   "bit": 32,
+   "name": "foot_r",
+   "bounded_by": [
+    "seam ankle_r"
+   ],
+   "note": "foot and toes"
+  }
+ ]
+}

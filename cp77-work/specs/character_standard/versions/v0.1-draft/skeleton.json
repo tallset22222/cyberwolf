@@ -1,0 +1,1629 @@
+{
+ "standard": "cyberwolf_character",
+ "version": "0.1-draft",
+ "profile": "bio_reference",
+ "stature_m": 1.75,
+ "conventions": {
+  "units": "metres",
+  "up": "+Y",
+  "forward": "+Z",
+  "character_left": "+X",
+  "rest_pose": "A-pose, upper arms 45 deg below horizontal",
+  "joint_frame": "local +Y towards primary child; local X = main flexion axis; twist about local Y",
+  "naming": "snake_case; side suffix _l/_r; prefixes: hlp_ helper, sock_ socket, ext_ chassis extension (reserved), face rig separate"
+ },
+ "layers": {
+  "core": "animated; the retargeting contract; may carry skin weights",
+  "twist": "driven from core, never keyed; carries skin weights",
+  "helper": "procedural deformation (anatomy layer), never keyed; carries skin weights",
+  "socket": "rigid attachment frames; never carries skin weights; always a leaf",
+  "ext": "reserved: chassis-specific joints (pistons, plates), parented under core joints; ignored by retargeting"
+ },
+ "counts": {
+  "core": 61,
+  "twist": 14,
+  "helper": 16,
+  "socket": 29
+ },
+ "parents_before_children": true,
+ "joints": [
+  {
+   "name": "root",
+   "parent": null,
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "note": "ground projection of the character; carries root motion; never skinned"
+  },
+  {
+   "name": "pelvis",
+   "parent": "root",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    0.94,
+    0.0
+   ],
+   "note": ""
+  },
+  {
+   "name": "spine_01",
+   "parent": "pelvis",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    1.02,
+    -0.005
+   ],
+   "note": ""
+  },
+  {
+   "name": "spine_02",
+   "parent": "spine_01",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    1.15,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "spine_03",
+   "parent": "spine_02",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    1.28,
+    -0.01
+   ],
+   "note": "ribcage / chest"
+  },
+  {
+   "name": "neck_01",
+   "parent": "spine_03",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    1.45,
+    -0.02
+   ],
+   "note": ""
+  },
+  {
+   "name": "neck_02",
+   "parent": "neck_01",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    1.52,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "head",
+   "parent": "neck_02",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    1.585,
+    0.0
+   ],
+   "note": "skull base pivot; the face rig binds here as a separate component"
+  },
+  {
+   "name": "jaw",
+   "parent": "head",
+   "layer": "core",
+   "rest_position_m": [
+    0.0,
+    1.6,
+    0.015
+   ],
+   "note": ""
+  },
+  {
+   "name": "eye_l",
+   "parent": "head",
+   "layer": "core",
+   "rest_position_m": [
+    0.032,
+    1.645,
+    0.075
+   ],
+   "note": ""
+  },
+  {
+   "name": "eye_r",
+   "parent": "head",
+   "layer": "core",
+   "rest_position_m": [
+    -0.032,
+    1.645,
+    0.075
+   ],
+   "note": ""
+  },
+  {
+   "name": "clavicle_l",
+   "parent": "spine_03",
+   "layer": "core",
+   "rest_position_m": [
+    0.02,
+    1.435,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "upperarm_l",
+   "parent": "clavicle_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.175,
+    1.42,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "lowerarm_l",
+   "parent": "upperarm_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.3871,
+    1.2079,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "hand_l",
+   "parent": "lowerarm_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.571,
+    1.024,
+    0.0
+   ],
+   "note": ""
+  },
+  {
+   "name": "index_01_l",
+   "parent": "hand_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6382,
+    0.9518,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "index_02_l",
+   "parent": "index_01_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.67,
+    0.92,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "index_03_l",
+   "parent": "index_02_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6891,
+    0.9009,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "middle_01_l",
+   "parent": "hand_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6417,
+    0.9483,
+    0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "middle_02_l",
+   "parent": "middle_01_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.677,
+    0.913,
+    0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "middle_03_l",
+   "parent": "middle_02_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6983,
+    0.8917,
+    0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "ring_00_l",
+   "parent": "hand_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.5957,
+    0.9993,
+    -0.007
+   ],
+   "note": "metacarpal (palm cupping)"
+  },
+  {
+   "name": "ring_01_l",
+   "parent": "ring_00_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6382,
+    0.9518,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "ring_02_l",
+   "parent": "ring_01_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6707,
+    0.9193,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "ring_03_l",
+   "parent": "ring_02_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6905,
+    0.8995,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "pinky_00_l",
+   "parent": "hand_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.5957,
+    0.9993,
+    -0.0196
+   ],
+   "note": "metacarpal (palm cupping)"
+  },
+  {
+   "name": "pinky_01_l",
+   "parent": "pinky_00_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6311,
+    0.9589,
+    -0.028
+   ],
+   "note": ""
+  },
+  {
+   "name": "pinky_02_l",
+   "parent": "pinky_01_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6572,
+    0.9328,
+    -0.028
+   ],
+   "note": ""
+  },
+  {
+   "name": "pinky_03_l",
+   "parent": "pinky_02_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6728,
+    0.9172,
+    -0.028
+   ],
+   "note": ""
+  },
+  {
+   "name": "thumb_01_l",
+   "parent": "hand_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.5922,
+    0.9878,
+    0.035
+   ],
+   "note": ""
+  },
+  {
+   "name": "thumb_02_l",
+   "parent": "thumb_01_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6132,
+    0.9668,
+    0.0618
+   ],
+   "note": ""
+  },
+  {
+   "name": "thumb_03_l",
+   "parent": "thumb_02_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.6316,
+    0.9484,
+    0.0852
+   ],
+   "note": ""
+  },
+  {
+   "name": "clavicle_r",
+   "parent": "spine_03",
+   "layer": "core",
+   "rest_position_m": [
+    -0.02,
+    1.435,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "upperarm_r",
+   "parent": "clavicle_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.175,
+    1.42,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "lowerarm_r",
+   "parent": "upperarm_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.3871,
+    1.2079,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "hand_r",
+   "parent": "lowerarm_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.571,
+    1.024,
+    0.0
+   ],
+   "note": ""
+  },
+  {
+   "name": "index_01_r",
+   "parent": "hand_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6382,
+    0.9518,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "index_02_r",
+   "parent": "index_01_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.67,
+    0.92,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "index_03_r",
+   "parent": "index_02_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6891,
+    0.9009,
+    0.03
+   ],
+   "note": ""
+  },
+  {
+   "name": "middle_01_r",
+   "parent": "hand_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6417,
+    0.9483,
+    0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "middle_02_r",
+   "parent": "middle_01_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.677,
+    0.913,
+    0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "middle_03_r",
+   "parent": "middle_02_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6983,
+    0.8917,
+    0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "ring_00_r",
+   "parent": "hand_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.5957,
+    0.9993,
+    -0.007
+   ],
+   "note": "metacarpal (palm cupping)"
+  },
+  {
+   "name": "ring_01_r",
+   "parent": "ring_00_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6382,
+    0.9518,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "ring_02_r",
+   "parent": "ring_01_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6707,
+    0.9193,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "ring_03_r",
+   "parent": "ring_02_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6905,
+    0.8995,
+    -0.01
+   ],
+   "note": ""
+  },
+  {
+   "name": "pinky_00_r",
+   "parent": "hand_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.5957,
+    0.9993,
+    -0.0196
+   ],
+   "note": "metacarpal (palm cupping)"
+  },
+  {
+   "name": "pinky_01_r",
+   "parent": "pinky_00_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6311,
+    0.9589,
+    -0.028
+   ],
+   "note": ""
+  },
+  {
+   "name": "pinky_02_r",
+   "parent": "pinky_01_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6572,
+    0.9328,
+    -0.028
+   ],
+   "note": ""
+  },
+  {
+   "name": "pinky_03_r",
+   "parent": "pinky_02_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6728,
+    0.9172,
+    -0.028
+   ],
+   "note": ""
+  },
+  {
+   "name": "thumb_01_r",
+   "parent": "hand_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.5922,
+    0.9878,
+    0.035
+   ],
+   "note": ""
+  },
+  {
+   "name": "thumb_02_r",
+   "parent": "thumb_01_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6132,
+    0.9668,
+    0.0618
+   ],
+   "note": ""
+  },
+  {
+   "name": "thumb_03_r",
+   "parent": "thumb_02_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.6316,
+    0.9484,
+    0.0852
+   ],
+   "note": ""
+  },
+  {
+   "name": "thigh_l",
+   "parent": "pelvis",
+   "layer": "core",
+   "rest_position_m": [
+    0.09,
+    0.92,
+    0.0
+   ],
+   "note": ""
+  },
+  {
+   "name": "calf_l",
+   "parent": "thigh_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.1,
+    0.5,
+    0.008
+   ],
+   "note": ""
+  },
+  {
+   "name": "foot_l",
+   "parent": "calf_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.105,
+    0.085,
+    -0.012
+   ],
+   "note": ""
+  },
+  {
+   "name": "ball_l",
+   "parent": "foot_l",
+   "layer": "core",
+   "rest_position_m": [
+    0.11,
+    0.022,
+    0.125
+   ],
+   "note": "toe joint; toes are one segment"
+  },
+  {
+   "name": "thigh_r",
+   "parent": "pelvis",
+   "layer": "core",
+   "rest_position_m": [
+    -0.09,
+    0.92,
+    0.0
+   ],
+   "note": ""
+  },
+  {
+   "name": "calf_r",
+   "parent": "thigh_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.1,
+    0.5,
+    0.008
+   ],
+   "note": ""
+  },
+  {
+   "name": "foot_r",
+   "parent": "calf_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.105,
+    0.085,
+    -0.012
+   ],
+   "note": ""
+  },
+  {
+   "name": "ball_r",
+   "parent": "foot_r",
+   "layer": "core",
+   "rest_position_m": [
+    -0.11,
+    0.022,
+    0.125
+   ],
+   "note": "toe joint; toes are one segment"
+  },
+  {
+   "name": "upperarm_twist_01_l",
+   "parent": "upperarm_l",
+   "layer": "twist",
+   "rest_position_m": [
+    0.245,
+    1.35,
+    -0.01
+   ],
+   "note": "33% along upperarm; driven by twist of lowerarm_l relative to upperarm_l"
+  },
+  {
+   "name": "upperarm_twist_02_l",
+   "parent": "upperarm_l",
+   "layer": "twist",
+   "rest_position_m": [
+    0.315,
+    1.28,
+    -0.01
+   ],
+   "note": "66% along upperarm; driven by twist of lowerarm_l relative to upperarm_l"
+  },
+  {
+   "name": "lowerarm_twist_01_l",
+   "parent": "lowerarm_l",
+   "layer": "twist",
+   "rest_position_m": [
+    0.4478,
+    1.1472,
+    -0.0067
+   ],
+   "note": "33% along lowerarm; driven by twist of hand_l relative to lowerarm_l"
+  },
+  {
+   "name": "lowerarm_twist_02_l",
+   "parent": "lowerarm_l",
+   "layer": "twist",
+   "rest_position_m": [
+    0.5085,
+    1.0865,
+    -0.0034
+   ],
+   "note": "66% along lowerarm; driven by twist of hand_l relative to lowerarm_l"
+  },
+  {
+   "name": "thigh_twist_01_l",
+   "parent": "thigh_l",
+   "layer": "twist",
+   "rest_position_m": [
+    0.0933,
+    0.7814,
+    0.0026
+   ],
+   "note": "33% along thigh; driven by twist of calf_l relative to thigh_l"
+  },
+  {
+   "name": "thigh_twist_02_l",
+   "parent": "thigh_l",
+   "layer": "twist",
+   "rest_position_m": [
+    0.0966,
+    0.6428,
+    0.0053
+   ],
+   "note": "66% along thigh; driven by twist of calf_l relative to thigh_l"
+  },
+  {
+   "name": "calf_twist_01_l",
+   "parent": "calf_l",
+   "layer": "twist",
+   "rest_position_m": [
+    0.1025,
+    0.2925,
+    -0.002
+   ],
+   "note": "50% along calf; driven by twist of foot_l relative to calf_l"
+  },
+  {
+   "name": "upperarm_twist_01_r",
+   "parent": "upperarm_r",
+   "layer": "twist",
+   "rest_position_m": [
+    -0.245,
+    1.35,
+    -0.01
+   ],
+   "note": "33% along upperarm; driven by twist of lowerarm_r relative to upperarm_r"
+  },
+  {
+   "name": "upperarm_twist_02_r",
+   "parent": "upperarm_r",
+   "layer": "twist",
+   "rest_position_m": [
+    -0.315,
+    1.28,
+    -0.01
+   ],
+   "note": "66% along upperarm; driven by twist of lowerarm_r relative to upperarm_r"
+  },
+  {
+   "name": "lowerarm_twist_01_r",
+   "parent": "lowerarm_r",
+   "layer": "twist",
+   "rest_position_m": [
+    -0.4478,
+    1.1472,
+    -0.0067
+   ],
+   "note": "33% along lowerarm; driven by twist of hand_r relative to lowerarm_r"
+  },
+  {
+   "name": "lowerarm_twist_02_r",
+   "parent": "lowerarm_r",
+   "layer": "twist",
+   "rest_position_m": [
+    -0.5085,
+    1.0865,
+    -0.0034
+   ],
+   "note": "66% along lowerarm; driven by twist of hand_r relative to lowerarm_r"
+  },
+  {
+   "name": "thigh_twist_01_r",
+   "parent": "thigh_r",
+   "layer": "twist",
+   "rest_position_m": [
+    -0.0933,
+    0.7814,
+    0.0026
+   ],
+   "note": "33% along thigh; driven by twist of calf_r relative to thigh_r"
+  },
+  {
+   "name": "thigh_twist_02_r",
+   "parent": "thigh_r",
+   "layer": "twist",
+   "rest_position_m": [
+    -0.0966,
+    0.6428,
+    0.0053
+   ],
+   "note": "66% along thigh; driven by twist of calf_r relative to thigh_r"
+  },
+  {
+   "name": "calf_twist_01_r",
+   "parent": "calf_r",
+   "layer": "twist",
+   "rest_position_m": [
+    -0.1025,
+    0.2925,
+    -0.002
+   ],
+   "note": "50% along calf; driven by twist of foot_r relative to calf_r"
+  },
+  {
+   "name": "hlp_shoulder_l",
+   "parent": "clavicle_l",
+   "layer": "helper",
+   "rest_position_m": [
+    0.185,
+    1.45,
+    -0.01
+   ],
+   "note": "deltoid volume"
+  },
+  {
+   "name": "hlp_elbow_l",
+   "parent": "upperarm_l",
+   "layer": "helper",
+   "rest_position_m": [
+    0.3871,
+    1.2079,
+    -0.045
+   ],
+   "note": "olecranon / crease preservation"
+  },
+  {
+   "name": "hlp_wrist_l",
+   "parent": "lowerarm_l",
+   "layer": "helper",
+   "rest_position_m": [
+    0.571,
+    1.034,
+    0.0
+   ],
+   "note": "wrist volume"
+  },
+  {
+   "name": "hlp_hip_l",
+   "parent": "pelvis",
+   "layer": "helper",
+   "rest_position_m": [
+    0.11,
+    0.92,
+    0.05
+   ],
+   "note": "front hip crease"
+  },
+  {
+   "name": "hlp_glute_l",
+   "parent": "pelvis",
+   "layer": "helper",
+   "rest_position_m": [
+    0.09,
+    0.89,
+    -0.09
+   ],
+   "note": "gluteal fold"
+  },
+  {
+   "name": "hlp_knee_l",
+   "parent": "thigh_l",
+   "layer": "helper",
+   "rest_position_m": [
+    0.1,
+    0.5,
+    0.058
+   ],
+   "note": "patella"
+  },
+  {
+   "name": "hlp_breast_l",
+   "parent": "spine_03",
+   "layer": "helper",
+   "rest_position_m": [
+    0.09,
+    1.3,
+    0.1
+   ],
+   "note": "chest volume; secondary-motion target (sim layer)"
+  },
+  {
+   "name": "hlp_shoulder_r",
+   "parent": "clavicle_r",
+   "layer": "helper",
+   "rest_position_m": [
+    -0.185,
+    1.45,
+    -0.01
+   ],
+   "note": "deltoid volume"
+  },
+  {
+   "name": "hlp_elbow_r",
+   "parent": "upperarm_r",
+   "layer": "helper",
+   "rest_position_m": [
+    -0.3871,
+    1.2079,
+    -0.045
+   ],
+   "note": "olecranon / crease preservation"
+  },
+  {
+   "name": "hlp_wrist_r",
+   "parent": "lowerarm_r",
+   "layer": "helper",
+   "rest_position_m": [
+    -0.571,
+    1.034,
+    0.0
+   ],
+   "note": "wrist volume"
+  },
+  {
+   "name": "hlp_hip_r",
+   "parent": "pelvis",
+   "layer": "helper",
+   "rest_position_m": [
+    -0.11,
+    0.92,
+    0.05
+   ],
+   "note": "front hip crease"
+  },
+  {
+   "name": "hlp_glute_r",
+   "parent": "pelvis",
+   "layer": "helper",
+   "rest_position_m": [
+    -0.09,
+    0.89,
+    -0.09
+   ],
+   "note": "gluteal fold"
+  },
+  {
+   "name": "hlp_knee_r",
+   "parent": "thigh_r",
+   "layer": "helper",
+   "rest_position_m": [
+    -0.1,
+    0.5,
+    0.058
+   ],
+   "note": "patella"
+  },
+  {
+   "name": "hlp_breast_r",
+   "parent": "spine_03",
+   "layer": "helper",
+   "rest_position_m": [
+    -0.09,
+    1.3,
+    0.1
+   ],
+   "note": "chest volume; secondary-motion target (sim layer)"
+  },
+  {
+   "name": "hlp_neck_front",
+   "parent": "neck_01",
+   "layer": "helper",
+   "rest_position_m": [
+    0.0,
+    1.47,
+    0.05
+   ],
+   "note": "throat / swallow volume"
+  },
+  {
+   "name": "hlp_belly",
+   "parent": "spine_01",
+   "layer": "helper",
+   "rest_position_m": [
+    0.0,
+    1.05,
+    0.1
+   ],
+   "note": "abdominal volume; secondary-motion target"
+  },
+  {
+   "name": "sock_head_top",
+   "parent": "head",
+   "layer": "socket",
+   "rest_position_m": [
+    0.0,
+    1.75,
+    -0.01
+   ],
+   "note": "helmets, headgear"
+  },
+  {
+   "name": "sock_face",
+   "parent": "head",
+   "layer": "socket",
+   "rest_position_m": [
+    0.0,
+    1.635,
+    0.1
+   ],
+   "note": "masks, face plates, visors"
+  },
+  {
+   "name": "sock_eye_l",
+   "parent": "eye_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.032,
+    1.645,
+    0.088
+   ],
+   "note": "optic replacement (left)"
+  },
+  {
+   "name": "sock_eye_r",
+   "parent": "eye_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.032,
+    1.645,
+    0.088
+   ],
+   "note": "optic replacement (right)"
+  },
+  {
+   "name": "sock_neck_port",
+   "parent": "neck_01",
+   "layer": "socket",
+   "rest_position_m": [
+    0.0,
+    1.49,
+    -0.06
+   ],
+   "note": "spinal / neural port; helmet cable terminus"
+  },
+  {
+   "name": "sock_spine_upper",
+   "parent": "spine_03",
+   "layer": "socket",
+   "rest_position_m": [
+    0.0,
+    1.33,
+    -0.11
+   ],
+   "note": "back-mounted cyberware (upper)"
+  },
+  {
+   "name": "sock_spine_lower",
+   "parent": "spine_01",
+   "layer": "socket",
+   "rest_position_m": [
+    0.0,
+    1.07,
+    -0.1
+   ],
+   "note": "back-mounted cyberware (lower)"
+  },
+  {
+   "name": "sock_chest_core",
+   "parent": "spine_03",
+   "layer": "socket",
+   "rest_position_m": [
+    0.0,
+    1.3,
+    0.02
+   ],
+   "note": "internal implants (logical location; life support, processors)"
+  },
+  {
+   "name": "sock_waist",
+   "parent": "pelvis",
+   "layer": "socket",
+   "rest_position_m": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "note": "belt hardware, waist implants"
+  },
+  {
+   "name": "sock_hip_l",
+   "parent": "pelvis",
+   "layer": "socket",
+   "rest_position_m": [
+    0.1,
+    0.93,
+    0.0
+   ],
+   "note": "hip joint (full-leg replacement anchor)"
+  },
+  {
+   "name": "sock_hip_r",
+   "parent": "pelvis",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.1,
+    0.93,
+    0.0
+   ],
+   "note": ""
+  },
+  {
+   "name": "sock_shoulder_l",
+   "parent": "clavicle_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.2,
+    1.465,
+    -0.01
+   ],
+   "note": "shoulder pods / plates (do not twist with the arm)"
+  },
+  {
+   "name": "sock_elbow_l",
+   "parent": "lowerarm_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.3871,
+    1.2079,
+    -0.01
+   ],
+   "note": "elbow hardware"
+  },
+  {
+   "name": "sock_wrist_l",
+   "parent": "lowerarm_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.571,
+    1.024,
+    0.0
+   ],
+   "note": "wrist hardware, forearm-mounted tools"
+  },
+  {
+   "name": "sock_hand_grip_l",
+   "parent": "hand_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.626,
+    0.949,
+    0.0
+   ],
+   "note": "held items / weapons"
+  },
+  {
+   "name": "sock_palm_l",
+   "parent": "hand_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.611,
+    0.964,
+    0.0
+   ],
+   "note": "palm implants"
+  },
+  {
+   "name": "sock_thigh_mid_l",
+   "parent": "thigh_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.095,
+    0.71,
+    0.004
+   ],
+   "note": "mid-thigh hardware"
+  },
+  {
+   "name": "sock_knee_l",
+   "parent": "calf_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.1,
+    0.5,
+    0.058
+   ],
+   "note": "knee hardware"
+  },
+  {
+   "name": "sock_ankle_l",
+   "parent": "foot_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.105,
+    0.085,
+    -0.012
+   ],
+   "note": "ankle hardware"
+  },
+  {
+   "name": "sock_sole_l",
+   "parent": "foot_l",
+   "layer": "socket",
+   "rest_position_m": [
+    0.105,
+    0.0,
+    0.03
+   ],
+   "note": "ground contact (feet replacements, footstep effects)"
+  },
+  {
+   "name": "sock_shoulder_r",
+   "parent": "clavicle_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.2,
+    1.465,
+    -0.01
+   ],
+   "note": "shoulder pods / plates (do not twist with the arm)"
+  },
+  {
+   "name": "sock_elbow_r",
+   "parent": "lowerarm_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.3871,
+    1.2079,
+    -0.01
+   ],
+   "note": "elbow hardware"
+  },
+  {
+   "name": "sock_wrist_r",
+   "parent": "lowerarm_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.571,
+    1.024,
+    0.0
+   ],
+   "note": "wrist hardware, forearm-mounted tools"
+  },
+  {
+   "name": "sock_hand_grip_r",
+   "parent": "hand_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.626,
+    0.949,
+    0.0
+   ],
+   "note": "held items / weapons"
+  },
+  {
+   "name": "sock_palm_r",
+   "parent": "hand_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.611,
+    0.964,
+    0.0
+   ],
+   "note": "palm implants"
+  },
+  {
+   "name": "sock_thigh_mid_r",
+   "parent": "thigh_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.095,
+    0.71,
+    0.004
+   ],
+   "note": "mid-thigh hardware"
+  },
+  {
+   "name": "sock_knee_r",
+   "parent": "calf_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.1,
+    0.5,
+    0.058
+   ],
+   "note": "knee hardware"
+  },
+  {
+   "name": "sock_ankle_r",
+   "parent": "foot_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.105,
+    0.085,
+    -0.012
+   ],
+   "note": "ankle hardware"
+  },
+  {
+   "name": "sock_sole_r",
+   "parent": "foot_r",
+   "layer": "socket",
+   "rest_position_m": [
+    -0.105,
+    0.0,
+    0.03
+   ],
+   "note": "ground contact (feet replacements, footstep effects)"
+  }
+ ],
+ "seam_rings": [
+  {
+   "code": "neck_base",
+   "from_joint": "neck_01",
+   "to_joint": "spine_03",
+   "fraction": 0.35,
+   "note": "head + neck replacement starts here (collar)",
+   "rest_position_m": [
+    0.0,
+    1.3905,
+    -0.0165
+   ]
+  },
+  {
+   "code": "neck_mid",
+   "from_joint": "neck_01",
+   "to_joint": "neck_02",
+   "fraction": 0.5,
+   "note": "head replacement (keeps the neck)",
+   "rest_position_m": [
+    0.0,
+    1.485,
+    -0.015
+   ]
+  },
+  {
+   "code": "waist",
+   "from_joint": "spine_01",
+   "to_joint": "spine_02",
+   "fraction": 0.4,
+   "note": "lower-body chassis boundary (abdomen / pelvis)",
+   "rest_position_m": [
+    0.0,
+    1.072,
+    -0.007
+   ]
+  },
+  {
+   "code": "shoulder_l",
+   "from_joint": "upperarm_l",
+   "to_joint": "lowerarm_l",
+   "fraction": 0.0,
+   "note": "full-arm replacement (includes the deltoid cap)",
+   "rest_position_m": [
+    0.175,
+    1.42,
+    -0.01
+   ]
+  },
+  {
+   "code": "upperarm_mid_l",
+   "from_joint": "upperarm_l",
+   "to_joint": "lowerarm_l",
+   "fraction": 0.5,
+   "note": "",
+   "rest_position_m": [
+    0.2811,
+    1.3139,
+    -0.01
+   ]
+  },
+  {
+   "code": "elbow_l",
+   "from_joint": "upperarm_l",
+   "to_joint": "lowerarm_l",
+   "fraction": 0.9,
+   "note": "forearm replacement (cuff covers the elbow)",
+   "rest_position_m": [
+    0.3659,
+    1.2291,
+    -0.01
+   ]
+  },
+  {
+   "code": "forearm_mid_l",
+   "from_joint": "lowerarm_l",
+   "to_joint": "hand_l",
+   "fraction": 0.5,
+   "note": "",
+   "rest_position_m": [
+    0.479,
+    1.1159,
+    -0.005
+   ]
+  },
+  {
+   "code": "wrist_l",
+   "from_joint": "lowerarm_l",
+   "to_joint": "hand_l",
+   "fraction": 0.92,
+   "note": "hand replacement",
+   "rest_position_m": [
+    0.5563,
+    1.0387,
+    -0.0008
+   ]
+  },
+  {
+   "code": "hip_l",
+   "from_joint": "thigh_l",
+   "to_joint": "calf_l",
+   "fraction": 0.0,
+   "note": "full-leg replacement (from the hip crease)",
+   "rest_position_m": [
+    0.09,
+    0.92,
+    0.0
+   ]
+  },
+  {
+   "code": "thigh_mid_l",
+   "from_joint": "thigh_l",
+   "to_joint": "calf_l",
+   "fraction": 0.5,
+   "note": "mid-thigh replacement (the military-leg default)",
+   "rest_position_m": [
+    0.095,
+    0.71,
+    0.004
+   ]
+  },
+  {
+   "code": "knee_l",
+   "from_joint": "thigh_l",
+   "to_joint": "calf_l",
+   "fraction": 0.92,
+   "note": "lower-leg replacement (cuff covers the knee)",
+   "rest_position_m": [
+    0.0992,
+    0.5336,
+    0.0074
+   ]
+  },
+  {
+   "code": "shin_mid_l",
+   "from_joint": "calf_l",
+   "to_joint": "foot_l",
+   "fraction": 0.5,
+   "note": "",
+   "rest_position_m": [
+    0.1025,
+    0.2925,
+    -0.002
+   ]
+  },
+  {
+   "code": "ankle_l",
+   "from_joint": "calf_l",
+   "to_joint": "foot_l",
+   "fraction": 0.92,
+   "note": "foot replacement",
+   "rest_position_m": [
+    0.1046,
+    0.1182,
+    -0.0104
+   ]
+  },
+  {
+   "code": "shoulder_r",
+   "from_joint": "upperarm_r",
+   "to_joint": "lowerarm_r",
+   "fraction": 0.0,
+   "note": "full-arm replacement (includes the deltoid cap)",
+   "rest_position_m": [
+    -0.175,
+    1.42,
+    -0.01
+   ]
+  },
+  {
+   "code": "upperarm_mid_r",
+   "from_joint": "upperarm_r",
+   "to_joint": "lowerarm_r",
+   "fraction": 0.5,
+   "note": "",
+   "rest_position_m": [
+    -0.2811,
+    1.3139,
+    -0.01
+   ]
+  },
+  {
+   "code": "elbow_r",
+   "from_joint": "upperarm_r",
+   "to_joint": "lowerarm_r",
+   "fraction": 0.9,
+   "note": "forearm replacement (cuff covers the elbow)",
+   "rest_position_m": [
+    -0.3659,
+    1.2291,
+    -0.01
+   ]
+  },
+  {
+   "code": "forearm_mid_r",
+   "from_joint": "lowerarm_r",
+   "to_joint": "hand_r",
+   "fraction": 0.5,
+   "note": "",
+   "rest_position_m": [
+    -0.479,
+    1.1159,
+    -0.005
+   ]
+  },
+  {
+   "code": "wrist_r",
+   "from_joint": "lowerarm_r",
+   "to_joint": "hand_r",
+   "fraction": 0.92,
+   "note": "hand replacement",
+   "rest_position_m": [
+    -0.5563,
+    1.0387,
+    -0.0008
+   ]
+  },
+  {
+   "code": "hip_r",
+   "from_joint": "thigh_r",
+   "to_joint": "calf_r",
+   "fraction": 0.0,
+   "note": "full-leg replacement (from the hip crease)",
+   "rest_position_m": [
+    -0.09,
+    0.92,
+    0.0
+   ]
+  },
+  {
+   "code": "thigh_mid_r",
+   "from_joint": "thigh_r",
+   "to_joint": "calf_r",
+   "fraction": 0.5,
+   "note": "mid-thigh replacement (the military-leg default)",
+   "rest_position_m": [
+    -0.095,
+    0.71,
+    0.004
+   ]
+  },
+  {
+   "code": "knee_r",
+   "from_joint": "thigh_r",
+   "to_joint": "calf_r",
+   "fraction": 0.92,
+   "note": "lower-leg replacement (cuff covers the knee)",
+   "rest_position_m": [
+    -0.0992,
+    0.5336,
+    0.0074
+   ]
+  },
+  {
+   "code": "shin_mid_r",
+   "from_joint": "calf_r",
+   "to_joint": "foot_r",
+   "fraction": 0.5,
+   "note": "",
+   "rest_position_m": [
+    -0.1025,
+    0.2925,
+    -0.002
+   ]
+  },
+  {
+   "code": "ankle_r",
+   "from_joint": "calf_r",
+   "to_joint": "foot_r",
+   "fraction": 0.92,
+   "note": "foot replacement",
+   "rest_position_m": [
+    -0.1046,
+    0.1182,
+    -0.0104
+   ]
+  }
+ ]
+}

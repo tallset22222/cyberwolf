@@ -1,0 +1,708 @@
+{
+ "standard": "cyberwolf_character",
+ "version": "0.2-draft",
+ "mask_width_bits": 64,
+ "boundary_types": {
+  "edge_loop": "a closed edge loop of the base mesh, referenced by seam/loop code",
+  "vertex_list": "an explicit, versioned ordered vertex list bound to one mesh topology (topology/<mesh>/boundaries.json)"
+ },
+ "topology_bindings": {
+  "hm08": {
+   "regions": "topology/hm08/regions.json",
+   "boundaries": "topology/hm08/boundaries.json",
+   "seams": "topology/hm08/seams.json"
+  }
+ },
+ "regions": [
+  {
+   "bit": 0,
+   "name": "scalp",
+   "bounded_by": [
+    "hairline",
+    "ear outline",
+    "nape line"
+   ],
+   "note": "hidden by helmets, hair caps",
+   "boundaries": [
+    {
+     "name": "hairline",
+     "type": "vertex_list"
+    },
+    {
+     "name": "ear outline",
+     "type": "vertex_list"
+    },
+    {
+     "name": "nape line",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 1,
+   "name": "face",
+   "bounded_by": [
+    "hairline",
+    "jawline",
+    "ear outline"
+   ],
+   "note": "hidden only by full masks; optional per item",
+   "boundaries": [
+    {
+     "name": "hairline",
+     "type": "vertex_list"
+    },
+    {
+     "name": "jawline",
+     "type": "vertex_list"
+    },
+    {
+     "name": "ear outline",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 2,
+   "name": "ears",
+   "bounded_by": [
+    "ear outline"
+   ],
+   "note": "both ears",
+   "boundaries": [
+    {
+     "name": "ear outline",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "separates; boundary is a placeholder and must be authored (no edge loop at the ear root on hm08)"
+  },
+  {
+   "bit": 3,
+   "name": "neck_upper",
+   "bounded_by": [
+    "jawline",
+    "nape line",
+    "seam neck_mid"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "jawline",
+     "type": "vertex_list"
+    },
+    {
+     "name": "nape line",
+     "type": "vertex_list"
+    },
+    {
+     "name": "seam neck_mid",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 4,
+   "name": "neck_lower",
+   "bounded_by": [
+    "seam neck_mid",
+    "seam neck_base"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam neck_mid",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam neck_base",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 5,
+   "name": "chest",
+   "bounded_by": [
+    "seam neck_base",
+    "ribcage line",
+    "mid-axillary lines",
+    "shoulder cap lines"
+   ],
+   "note": "front torso above the ribcage line",
+   "boundaries": [
+    {
+     "name": "seam neck_base",
+     "type": "edge_loop"
+    },
+    {
+     "name": "ribcage line",
+     "type": "edge_loop"
+    },
+    {
+     "name": "mid-axillary lines",
+     "type": "vertex_list"
+    },
+    {
+     "name": "shoulder cap lines",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3); ribcage line open: horizontal ring vs costal V"
+  },
+  {
+   "bit": 6,
+   "name": "abdomen",
+   "bounded_by": [
+    "ribcage line",
+    "seam waist",
+    "mid-axillary lines"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "ribcage line",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam waist",
+     "type": "edge_loop"
+    },
+    {
+     "name": "mid-axillary lines",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3); ribcage line open: horizontal ring vs costal V"
+  },
+  {
+   "bit": 7,
+   "name": "back_upper",
+   "bounded_by": [
+    "seam neck_base",
+    "ribcage line",
+    "mid-axillary lines",
+    "shoulder cap lines"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam neck_base",
+     "type": "edge_loop"
+    },
+    {
+     "name": "ribcage line",
+     "type": "edge_loop"
+    },
+    {
+     "name": "mid-axillary lines",
+     "type": "vertex_list"
+    },
+    {
+     "name": "shoulder cap lines",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3); ribcage line open: horizontal ring vs costal V"
+  },
+  {
+   "bit": 8,
+   "name": "back_lower",
+   "bounded_by": [
+    "ribcage line",
+    "mid-axillary lines",
+    "seam waist"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "ribcage line",
+     "type": "edge_loop"
+    },
+    {
+     "name": "mid-axillary lines",
+     "type": "vertex_list"
+    },
+    {
+     "name": "seam waist",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3); ribcage line open: horizontal ring vs costal V"
+  },
+  {
+   "bit": 9,
+   "name": "pelvis_front",
+   "bounded_by": [
+    "seam waist",
+    "seams hip_l/r",
+    "pelvis side lines"
+   ],
+   "note": "includes the groin",
+   "boundaries": [
+    {
+     "name": "seam waist",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seams hip_l/r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "pelvis side lines",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 10,
+   "name": "pelvis_back",
+   "bounded_by": [
+    "seam waist",
+    "seams hip_l/r",
+    "pelvis side lines"
+   ],
+   "note": "glutes (on hm08 the hip seam bounds it, not the gluteal fold)",
+   "boundaries": [
+    {
+     "name": "seam waist",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seams hip_l/r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "pelvis side lines",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 11,
+   "name": "shoulder_cap_l",
+   "bounded_by": [
+    "seam shoulder_l",
+    "shoulder cap lines"
+   ],
+   "note": "deltoid cap",
+   "boundaries": [
+    {
+     "name": "seam shoulder_l",
+     "type": "edge_loop"
+    },
+    {
+     "name": "shoulder cap lines",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 12,
+   "name": "upperarm_upper_l",
+   "bounded_by": [
+    "seam shoulder_l",
+    "seam upperarm_mid_l"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam shoulder_l",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam upperarm_mid_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 13,
+   "name": "upperarm_lower_l",
+   "bounded_by": [
+    "seam upperarm_mid_l",
+    "seam elbow_l"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam upperarm_mid_l",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam elbow_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 14,
+   "name": "elbow_l",
+   "bounded_by": [
+    "seam elbow_l",
+    "forearm 15%"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam elbow_l",
+     "type": "edge_loop"
+    },
+    {
+     "name": "forearm 15%",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 15,
+   "name": "forearm_l",
+   "bounded_by": [
+    "forearm 15%",
+    "seam wrist_l"
+   ],
+   "note": "split at forearm_mid allowed later (reserved bit)",
+   "boundaries": [
+    {
+     "name": "forearm 15%",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam wrist_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 16,
+   "name": "hand_l",
+   "bounded_by": [
+    "seam wrist_l"
+   ],
+   "note": "hand and fingers",
+   "boundaries": [
+    {
+     "name": "seam wrist_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 17,
+   "name": "thigh_upper_l",
+   "bounded_by": [
+    "seam hip_l",
+    "seam thigh_mid_l"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam hip_l",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam thigh_mid_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 18,
+   "name": "thigh_lower_l",
+   "bounded_by": [
+    "seam thigh_mid_l",
+    "seam knee_l"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam thigh_mid_l",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam knee_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 19,
+   "name": "knee_l",
+   "bounded_by": [
+    "seam knee_l",
+    "shin 15%"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam knee_l",
+     "type": "edge_loop"
+    },
+    {
+     "name": "shin 15%",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 20,
+   "name": "shin_l",
+   "bounded_by": [
+    "shin 15%",
+    "seam ankle_l"
+   ],
+   "note": "split at shin_mid allowed later (reserved bit)",
+   "boundaries": [
+    {
+     "name": "shin 15%",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam ankle_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 21,
+   "name": "foot_l",
+   "bounded_by": [
+    "seam ankle_l"
+   ],
+   "note": "foot and toes",
+   "boundaries": [
+    {
+     "name": "seam ankle_l",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 22,
+   "name": "shoulder_cap_r",
+   "bounded_by": [
+    "seam shoulder_r",
+    "shoulder cap lines"
+   ],
+   "note": "deltoid cap",
+   "boundaries": [
+    {
+     "name": "seam shoulder_r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "shoulder cap lines",
+     "type": "vertex_list"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 23,
+   "name": "upperarm_upper_r",
+   "bounded_by": [
+    "seam shoulder_r",
+    "seam upperarm_mid_r"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam shoulder_r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam upperarm_mid_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 24,
+   "name": "upperarm_lower_r",
+   "bounded_by": [
+    "seam upperarm_mid_r",
+    "seam elbow_r"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam upperarm_mid_r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam elbow_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 25,
+   "name": "elbow_r",
+   "bounded_by": [
+    "seam elbow_r",
+    "forearm 15%"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam elbow_r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "forearm 15%",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 26,
+   "name": "forearm_r",
+   "bounded_by": [
+    "forearm 15%",
+    "seam wrist_r"
+   ],
+   "note": "split at forearm_mid allowed later (reserved bit)",
+   "boundaries": [
+    {
+     "name": "forearm 15%",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam wrist_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 27,
+   "name": "hand_r",
+   "bounded_by": [
+    "seam wrist_r"
+   ],
+   "note": "hand and fingers",
+   "boundaries": [
+    {
+     "name": "seam wrist_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 28,
+   "name": "thigh_upper_r",
+   "bounded_by": [
+    "seam hip_r",
+    "seam thigh_mid_r"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam hip_r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam thigh_mid_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 29,
+   "name": "thigh_lower_r",
+   "bounded_by": [
+    "seam thigh_mid_r",
+    "seam knee_r"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam thigh_mid_r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam knee_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 30,
+   "name": "knee_r",
+   "bounded_by": [
+    "seam knee_r",
+    "shin 15%"
+   ],
+   "note": "",
+   "boundaries": [
+    {
+     "name": "seam knee_r",
+     "type": "edge_loop"
+    },
+    {
+     "name": "shin 15%",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 31,
+   "name": "shin_r",
+   "bounded_by": [
+    "shin 15%",
+    "seam ankle_r"
+   ],
+   "note": "split at shin_mid allowed later (reserved bit)",
+   "boundaries": [
+    {
+     "name": "shin 15%",
+     "type": "edge_loop"
+    },
+    {
+     "name": "seam ankle_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  },
+  {
+   "bit": 32,
+   "name": "foot_r",
+   "bounded_by": [
+    "seam ankle_r"
+   ],
+   "note": "foot and toes",
+   "boundaries": [
+    {
+     "name": "seam ankle_r",
+     "type": "edge_loop"
+    }
+   ],
+   "status": "validated: separates cleanly (test 3)"
+  }
+ ]
+}

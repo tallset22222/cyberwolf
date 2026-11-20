@@ -1,0 +1,54 @@
+{
+ "jackie:buffers": {
+  "baked": 8348,
+  "main": 233264,
+  "corrective": 570832
+ },
+ "jackie:jaw_open_1": {
+  "joints": 169,
+  "deltas": "409272afbfd7a1d1"
+ },
+ "jackie:jaw_open_05": {
+  "joints": 166,
+  "deltas": "9a9ddaa383a5100b"
+ },
+ "jackie:blink_l": {
+  "joints": 28,
+  "deltas": "9c7c77f8377de00b"
+ },
+ "judy:buffers": {
+  "baked": 8348,
+  "main": 234000,
+  "corrective": 575472
+ },
+ "judy:jaw_open_1": {
+  "joints": 170,
+  "deltas": "04ae62d1e7c404a3"
+ },
+ "judy:jaw_open_05": {
+  "joints": 167,
+  "deltas": "a15595755ddd56ef"
+ },
+ "judy:blink_l": {
+  "joints": 29,
+  "deltas": "654ea000ad259a19"
+ },
+ "lipsync:f_19751E65C82EF000": {
+  "jawOpenWeights": [
+   0.0,
+   0.0023,
+   0.1789,
+   0.0031,
+   0.0396,
+   0.0525,
+   0.1944,
+   0.0,
+   0.0
+  ],
+  "deltas": "584e234447e5cbf0"
+ },
+ "clip:idle__joy__male": {
+  "tracks": 414,
+  "values": "0026de9863950951"
+ }
+}
